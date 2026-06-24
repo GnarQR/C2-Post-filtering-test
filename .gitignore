@@ -210,6 +210,7 @@ __marimo__/
 *.xlsx
 *.ttl
 domain_kg.json
+domain_kg_flat.json
 llm_kg_*.json
 eval_*.json
 .

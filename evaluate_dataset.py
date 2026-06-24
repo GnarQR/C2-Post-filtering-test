@@ -20,13 +20,13 @@ from dataclasses import dataclass
 import openpyxl
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from hallucination_filter_groq import HallucinationFilter
+from hallucination_filter import HallucinationFilter
 
 # ── 설정 ────────────────────────────────────────────────────────────────
 
 XLSX_PATH    = "1차년도 QnA 데이터셋 평가.xlsx"
 AGROVOC_TTL  = "agrovocSubOntology.ttl"
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
 # 평가할 컬럼 선택: "finetune" 또는 "zeroshot"
 EVAL_TARGET = "finetune"   # 파인튜닝 후 추론 결과
