@@ -288,11 +288,22 @@ class HallucinationCorrector:
 # ── 테스트 ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import argparse
     import os, sys
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from llm_client import GroqClient
+    from llm_client import GroqClient, GeminiClient
 
-    client = GroqClient(api_key=os.getenv("GROQ_API_KEY", ""))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--client", choices=["groq", "gemini"], default="gemini")
+    args = parser.parse_args()
+
+    if args.client == "gemini":
+        client = GeminiClient(api_key=os.getenv("GEMINI_API_KEY", ""))
+        print(f"[LLM] Gemini ({GeminiClient.DEFAULT_MODEL})")
+    else:
+        client = GroqClient(api_key=os.getenv("GROQ_API_KEY", ""))
+        print(f"[LLM] Groq ({GroqClient.DEFAULT_MODEL})")
+
     corrector = HallucinationCorrector(client)
 
     test_cases = [

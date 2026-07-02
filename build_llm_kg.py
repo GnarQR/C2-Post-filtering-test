@@ -194,7 +194,7 @@ def main():
     parser.add_argument(
         "--client",
         choices=["groq", "gemini"],
-        default="groq",
+        default="gemini",
     )
     parser.add_argument("--groq-key",   default=os.getenv("GROQ_API_KEY", ""))
     parser.add_argument("--gemini-key", default=os.getenv("GEMINI_API_KEY", ""))

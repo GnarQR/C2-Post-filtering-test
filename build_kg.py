@@ -171,8 +171,8 @@ def main():
     parser.add_argument(
         "--client",
         choices=["groq", "gemini"],
-        default="groq",
-        help="사용할 LLM 클라이언트 (기본: groq)",
+        default="gemini",
+        help="사용할 LLM 클라이언트 (기본: gemini)",
     )
     parser.add_argument(
         "--groq-key",

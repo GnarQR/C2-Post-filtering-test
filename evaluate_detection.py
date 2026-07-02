@@ -3,9 +3,17 @@ Hallucination 탐지 전용 평가 스크립트
 ======================================
 LLM 호출 없이 저장된 triple + NLI만으로 평가합니다.
 
+[수정 사항]
+    tf_label을 llm_kg json에서 그대로 쓰지 않고, 엑셀에서 다시 매핑함:
+        idx 1~20  → H열 "보고서 제출용 점수" (2인 평가 중 채택된 값)
+        idx 21~40 → E열 "TF 점수" (1인 평가만 존재)
+    두 컬럼 모두 D열(파인튜닝 후 추론 결과)을 평가한 것이므로,
+    llm_kg의 triple(= D 답변에서 추출) 자체는 그대로 사용.
+
 사전 준비:
     python build_kg.py       → domain_kg.json
     python build_llm_kg.py   → llm_kg_{target}.json
+    1차년도_QnA_데이터셋_평가.xlsx 파일을 같은 폴더에 둘 것
 
 사용법:
     python evaluate_detection.py --target finetune
@@ -19,9 +27,46 @@ import json
 import os
 import sys
 
+import openpyxl
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from hallucination_corrector import verify_triples
 from triple_extractor import Triple
+
+
+XLSX_PATH  = "1차년도_QnA_데이터셋_평가.xlsx"
+SHEET_NAME = "연구자 평가"
+COL_TF     = 5   # E: TF 점수 (idx 21~40 용)
+COL_REPORT = 8   # H: 보고서 제출용 점수 (idx 1~20 용)
+
+
+# ── 라벨 로드 (신규) ──────────────────────────────────────────────────────
+
+def load_correct_labels(xlsx_path: str) -> dict[int, bool]:
+    """
+    idx → tf_label(bool) 매핑.
+    tf_label = True  → hallucination(오답, X)
+    tf_label = False → 정확(정답, O)
+    """
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True)
+    ws = wb[SHEET_NAME]
+
+    labels: dict[int, bool] = {}
+    for row in ws.iter_rows(min_row=2):
+        idx = row[0].value
+        if idx is None:
+            continue
+        idx = int(idx)
+
+        raw = row[COL_REPORT - 1].value if idx <= 20 else row[COL_TF - 1].value
+
+        if raw not in ("O", "X"):
+            print(f"[경고] idx={idx} 라벨 값 이상함: {raw!r} → 스킵")
+            continue
+
+        labels[idx] = (raw == "X")
+
+    return labels
 
 
 # ── 데이터 로드 ──────────────────────────────────────────────────────────
@@ -70,11 +115,15 @@ def run_detection(
 ):
     llm_kg_path    = os.path.join(base_dir, f"llm_kg_{target}.json")
     domain_kg_path = os.path.join(base_dir, "domain_kg.json")
+    xlsx_path      = os.path.join(base_dir, XLSX_PATH)
 
-    for path in [llm_kg_path, domain_kg_path]:
+    for path in [llm_kg_path, domain_kg_path, xlsx_path]:
         if not os.path.exists(path):
             print(f"[오류] 파일 없음: {path}")
             return
+
+    correct_labels = load_correct_labels(xlsx_path)   # ★ 신규
+    print(f"[로드] 엑셀 재매핑 라벨: {len(correct_labels)}개")
 
     llm_kg    = load_llm_kg(llm_kg_path)
     domain_kg = load_domain_kg(domain_kg_path)
@@ -97,7 +146,12 @@ def run_detection(
         item       = llm_kg[idx]
         gt_triples = domain_kg.get(idx, [])
 
-        tf_label = item["tf_label"]
+        if idx not in correct_labels:
+            print(f"[Q{idx}] 엑셀에 라벨 없음 → 스킵")
+            continue
+
+        old_tf_label = item["tf_label"]
+        tf_label     = correct_labels[idx]   # ★ json 대신 엑셀 재매핑 값 사용
 
         # LLM 답변 triple
         llm_triples = [
@@ -106,7 +160,6 @@ def run_detection(
         ]
 
         # 정답 triple → context 문장
-        # 질문과 관련된 정답 triple만 사용 (전체 사용 시 노이즈 많음)
         gt_sentences = " ".join(
             f"{t['subject']} {t['predicate']} {t['object']}."
             for t in gt_triples
@@ -127,8 +180,9 @@ def run_detection(
             labels.append(tf_label)
             predictions.append(is_hall)
 
-            status = "✅ 정확" if correct else "❌ 오류"
-            print(f"[Q{idx}] 레이블: {'❌ hall' if tf_label else '✅ ok'} | "
+            changed = " ⚠️라벨변경" if old_tf_label != tf_label else ""
+            status  = "✅ 정확" if correct else "❌ 오류"
+            print(f"[Q{idx}] 레이블: {'❌ hall' if tf_label else '✅ ok'}{changed} | "
                   f"예측: {'❌ hall' if is_hall else '✅ ok'} | "
                   f"{status} | "
                   f"triple {len(llm_triples)}개, flagged {len(flagged)}개")
@@ -142,7 +196,6 @@ def run_detection(
                 else:
                     reason = "정답에 없는 내용"
                 print(f"  ⚠ [{reason}] {v.triple} (score: {v.nli_score:.2f})")
-                # subject 기준으로 관련 정답 triple 찾기
                 subj = v.triple.subject.strip()
                 related = [
                     t for t in gt_triples
@@ -156,13 +209,15 @@ def run_detection(
                     print(f"     → 관련 정답 없음 (정답 KG에 해당 개념 미등재)")
 
             results.append({
-                "idx":           idx,
-                "question":      item["question"][:60],
-                "tf_label":      tf_label,
-                "predicted":     is_hall,
-                "correct":       correct,
-                "triple_count":  len(llm_triples),
-                "flagged_count": len(flagged),
+                "idx":            idx,
+                "question":       item["question"][:60],
+                "old_tf_label":   old_tf_label,
+                "tf_label":       tf_label,
+                "label_changed":  old_tf_label != tf_label,
+                "predicted":      is_hall,
+                "correct":        correct,
+                "triple_count":   len(llm_triples),
+                "flagged_count":  len(flagged),
                 "flagged_triples": [
                     {"triple": str(v.triple), "score": round(v.nli_score, 3)}
                     for v in flagged
@@ -177,11 +232,12 @@ def run_detection(
 
     # ── 최종 결과 ────────────────────────────────────────────────────────
     m = compute_metrics(labels, predictions)
+    n_changed = sum(1 for r in results if r.get("label_changed"))
 
     print(f"\n{'='*60}")
-    print(f"📊 탐지 평가 결과 ({target})")
+    print(f"📊 탐지 평가 결과 ({target}) — 라벨 재매핑 적용")
     print(f"{'='*60}")
-    print(f"평가 항목: {len(labels)}개")
+    print(f"평가 항목: {len(labels)}개  (라벨 변경된 문항: {n_changed}개)")
     print(f"Accuracy : {m['accuracy']:.3f}  ({m['tp']+m['tn']}/{len(labels)})")
     print(f"Precision: {m['precision']:.3f}")
     print(f"Recall   : {m['recall']:.3f}")
@@ -192,7 +248,6 @@ def run_detection(
     print(f"  FN (hall 미탐): {m['fn']}")
     print(f"  TN (정확 정탐): {m['tn']}")
 
-    # 오탐/미탐 분석
     fp_items = [r for r in results if not r.get("error") and
                 not r["tf_label"] and r["predicted"]]
     fn_items = [r for r in results if not r.get("error") and
@@ -208,7 +263,6 @@ def run_detection(
         for r in fp_items:
             print(f"  Q{r['idx']}: {r['question']}")
 
-    # 저장
     if not dry_run:
         out_path = os.path.join(base_dir, f"eval_detection_{target}.json")
         with open(out_path, "w", encoding="utf-8") as f:

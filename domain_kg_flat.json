@@ -3,218 +3,232 @@
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
     "subject": "건유기",
-    "predicate": "목표는",
-    "object": "유선 조직 회복과 태아 성장 촉진"
+    "predicate": "목표",
+    "object": "유선 조직 회복"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
     "subject": "건유기",
-    "predicate": "적정 기간은",
+    "predicate": "목표",
+    "object": "태아 성장 촉진"
+  },
+  {
+    "idx": 1,
+    "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
+    "subject": "건유기",
+    "predicate": "적정 기간",
     "object": "45일에서 60일"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
-    "subject": "45일 미만",
-    "predicate": "유발한다",
-    "object": "유선 조직 회복이 불충분"
+    "subject": "45일 미만 건유기",
+    "predicate": "유발",
+    "object": "다음 산차 최대 유량 감소"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
-    "subject": "유선 조직 회복이 불충분",
-    "predicate": "유발한다",
-    "object": "다음 산차의 최대 유량 감소"
+    "subject": "45일 미만 건유기",
+    "predicate": "원인",
+    "object": "유선 조직 회복 불충분"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
-    "subject": "60일 초과",
-    "predicate": "초래한다",
+    "subject": "60일 초과 건유기",
+    "predicate": "초래",
     "object": "과비"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
-    "subject": "과비",
-    "predicate": "높인다",
+    "subject": "60일 초과 건유기",
+    "predicate": "높임",
     "object": "분만 후 에너지 대사 질환 위험"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
     "subject": "분만 후 에너지 대사 질환",
-    "predicate": "종류는",
-    "object": "케토시스, 지방간"
+    "predicate": "종류",
+    "object": "케토시스"
   },
   {
     "idx": 1,
     "question": "젖소 건유기의 사양관리 목표와 적정 건유 기간, 그리고 기간 미준수 시의 문제점은 무엇인가요?",
-    "subject": "건유기",
-    "predicate": "기간은",
-    "object": "45일에서 60일"
+    "subject": "분만 후 에너지 대사 질환",
+    "predicate": "종류",
+    "object": "지방간"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
     "subject": "적정 환기량",
-    "predicate": "판단하는 핵심 지표는",
+    "predicate": "핵심 지표",
     "object": "유해 가스 농도"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
-    "subject": "축사 내부의 암모니아(NH₃) 가스 농도",
-    "predicate": "는",
+    "subject": "축사 내부 암모니아(NH₃) 가스 농도",
+    "predicate": "유지해야 함",
     "object": "20ppm 이하"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
-    "subject": "축사 내부의 이산화탄소(CO₂) 농도",
-    "predicate": "는",
+    "subject": "축사 내부 이산화탄소(CO₂) 농도",
+    "predicate": "유지해야 함",
     "object": "2,000ppm 이하"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
-    "subject": "유해 가스 농도",
-    "predicate": "높아지면",
+    "subject": "유해 가스 농도 수치",
+    "predicate": "의미함",
     "object": "환기 부족"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
     "subject": "환기 부족",
-    "predicate": "을 의미하며",
-    "object": "강제 환기 시스템을 통해 시간당 공기 교체 횟수를 늘려야 함"
+    "predicate": "발생함",
+    "object": "유해 가스 농도 수치 높아짐"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
     "subject": "강제 환기 시스템",
-    "predicate": "을 통해",
-    "object": "시간당 공기 교체 횟수를 늘려야 함"
+    "predicate": "사용해야 함",
+    "object": "환기 부족"
   },
   {
     "idx": 2,
     "question": "축사 내부의 적정 환기량을 판단하고 조절하는 과학적인 기준(가스 농도)을 알려주세요.",
-    "subject": "시간당 공기 교체 횟수",
-    "predicate": "를",
-    "object": "늘려야 함"
+    "subject": "강제 환기 시스템",
+    "predicate": "늘려야 함",
+    "object": "시간당 공기 교체 횟수"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "영양소 운반에 필수적"
+    "predicate": "is essential for",
+    "object": "영양소 운반"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "체온 조절에 필수적"
+    "predicate": "is essential for",
+    "object": "체온 조절"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "사료 소화에 필수적"
+    "predicate": "is essential for",
+    "object": "사료 소화"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "대사에 필수적"
+    "predicate": "is essential for",
+    "object": "대사"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "적정 음수량",
-    "predicate": "는",
+    "predicate": "is",
     "object": "사료 섭취량의 3~5배"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "적정 음수량",
-    "predicate": "는",
+    "predicate": "is generally",
     "object": "1일 30~50L"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "음수량 부족",
-    "predicate": "는",
-    "object": "사료 섭취량 감소의 원인"
+    "predicate": "causes",
+    "object": "사료 섭취량 감소"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "음수량 부족",
-    "predicate": "는",
-    "object": "소화율 저하의 원인"
+    "predicate": "causes",
+    "object": "소화율 저하"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "음수량 부족",
-    "predicate": "는",
-    "object": "성장 성과 저하의 원인"
+    "predicate": "causes",
+    "object": "성장 성과 저하"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "급수 시설",
-    "predicate": "는",
-    "object": "매일 청결 상태 확인이 필요"
+    "predicate": "should be checked daily for",
+    "object": "청결 상태"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
     "subject": "급수 시설",
-    "predicate": "는",
-    "object": "주 1회 이상 청소가 필요"
+    "predicate": "should be cleaned at least",
+    "object": "주 1회 이상"
   },
   {
     "idx": 3,
     "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
-    "subject": "청결 상태 확인",
-    "predicate": "는",
-    "object": "오염 방지에 필요"
-  },
-  {
-    "idx": 3,
-    "question": "한우 비육우에게 물을 충분히 급여해야 하는 이유와 적정 음수량, 그리고 급수 시설 관리법은 무엇인가요?",
-    "subject": "청소",
-    "predicate": "는",
-    "object": "오염 방지에 필요"
+    "subject": "급수 시설 청소",
+    "predicate": "prevents",
+    "object": "오염"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
     "subject": "열 스트레스",
     "predicate": "causes",
-    "object": "발정 행동 감소"
+    "object": "발정 징후 약화"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
     "subject": "열 스트레스",
-    "predicate": "decreases",
-    "object": "발정 탐지 성공률"
+    "predicate": "causes",
+    "object": "발정 징후 소실"
+  },
+  {
+    "idx": 4,
+    "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
+    "subject": "발정 징후 약화",
+    "predicate": "causes",
+    "object": "발정 탐지 성공률 감소"
+  },
+  {
+    "idx": 4,
+    "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
+    "subject": "발정 징후 소실",
+    "predicate": "causes",
+    "object": "발정 탐지 성공률 감소"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
     "subject": "체온 상승",
-    "predicate": "damages",
-    "object": "난자의 질"
+    "predicate": "causes",
+    "object": "난자 질 저하"
   },
   {
     "idx": 4,
@@ -226,149 +240,121 @@
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "스트레스 호르몬 분비",
-    "predicate": "disrupts",
-    "object": "정상적인 번식 호르몬 분비"
-  },
-  {
-    "idx": 4,
-    "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "스트레스 호르몬 분비",
-    "predicate": "affects",
-    "object": "GnRH"
-  },
-  {
-    "idx": 4,
-    "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "스트레스 호르몬 분비",
-    "predicate": "affects",
-    "object": "LH"
-  },
-  {
-    "idx": 4,
-    "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "체온 상승",
+    "subject": "수정 후 초기 착상 단계 손상",
     "predicate": "causes",
-    "object": "초기 착상 단계 손상"
+    "object": "수태율 감소"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "열 스트레스",
-    "predicate": "is a type of",
-    "object": "스트레스"
+    "subject": "스트레스 호르몬 분비",
+    "predicate": "causes",
+    "object": "정상적인 번식 호르몬 분비 교란"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "발정 행동 감소",
+    "subject": "GnRH",
     "predicate": "is a type of",
-    "object": "번식 문제"
+    "object": "번식 호르몬"
   },
   {
     "idx": 4,
     "question": "소의 열 스트레스(Heat Stress)가 번식에 미치는 구체적인 악영향 3가지를 설명해주세요.",
-    "subject": "수태율 감소",
+    "subject": "LH",
     "predicate": "is a type of",
-    "object": "번식 문제"
+    "object": "번식 호르몬"
+  },
+  {
+    "idx": 5,
+    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
+    "subject": "재발정 지연",
+    "predicate": "원인",
+    "object": "분만 후 낮은 BCS"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
     "subject": "분만 후 낮은 BCS",
-    "predicate": "는",
-    "object": "재발정이 늦어지는 가장 큰 원인"
+    "predicate": "이하",
+    "object": "2.5"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "분만 후 낮은 BCS",
-    "predicate": "는",
-    "object": "2.5 이하"
+    "subject": "재발정 지연",
+    "predicate": "원인",
+    "object": "영양 불균형"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "영양 불균형",
-    "predicate": "는",
-    "object": "재발정이 늦어지는 가장 큰 원인"
+    "subject": "BCS 개선",
+    "predicate": "권장 조치",
+    "object": "에너지 밀도 높은 농후사료 급여량 증가"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "에너지 밀도가 높은 농후사료",
-    "predicate": "를",
-    "object": "BCS 개선을 위해 급여"
+    "subject": "난소 활동 재개",
+    "predicate": "촉진 필요",
+    "object": "비타민 A 보충"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "에너지 밀도가 높은 농후사료 급여량",
-    "predicate": "를",
-    "object": "늘려야 한다"
+    "subject": "난소 활동 재개",
+    "predicate": "촉진 필요",
+    "object": "비타민 E 보충"
+  },
+  {
+    "idx": 5,
+    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
+    "subject": "난소 활동 재개",
+    "predicate": "촉진 필요",
+    "object": "셀레늄 보충"
+  },
+  {
+    "idx": 5,
+    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
+    "subject": "에너지 밀도 높은 농후사료",
+    "predicate": "종류",
+    "object": "농후사료"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
     "subject": "비타민 A",
-    "predicate": "는",
+    "predicate": "종류",
     "object": "미량 영양소"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
     "subject": "비타민 E",
-    "predicate": "는",
+    "predicate": "종류",
     "object": "미량 영양소"
   },
   {
     "idx": 5,
     "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
     "subject": "셀레늄",
-    "predicate": "는",
+    "predicate": "종류",
     "object": "미량 영양소"
-  },
-  {
-    "idx": 5,
-    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "미량 영양소",
-    "predicate": "를",
-    "object": "충분히 보충해야 한다"
-  },
-  {
-    "idx": 5,
-    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "미량 영양소 보충",
-    "predicate": "는",
-    "object": "난소 활동 재개를 촉진"
-  },
-  {
-    "idx": 5,
-    "question": "한우 번식우의 분만 후 재발정이 늦어질 경우, 사양 관리 측면에서 어떤 조치를 취해야 하나요?",
-    "subject": "BCS 개선",
-    "predicate": "는",
-    "object": "난소 활동 재개를 촉진"
-  },
-  {
-    "idx": 6,
-    "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
-    "subject": "임신 후기",
-    "predicate": "causes",
-    "object": "난산 발생 위험 증가"
   },
   {
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
     "subject": "농후사료 과다 섭취",
     "predicate": "causes",
-    "object": "태아 과도한 성장"
+    "object": "태아 과도 성장"
   },
   {
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
-    "subject": "태아 과도한 성장",
-    "predicate": "causes",
-    "object": "난산 발생 위험 증가"
+    "subject": "태아 과도 성장",
+    "predicate": "increases risk of",
+    "object": "난산"
   },
   {
     "idx": 6,
@@ -381,1730 +367,2052 @@
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
     "subject": "모체 간 지방 축적",
-    "predicate": "causes",
-    "object": "분만 후 케토시스 발생 가능성 증가"
+    "predicate": "increases possibility of",
+    "object": "분만 후 식욕 부진"
   },
   {
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
     "subject": "모체 간 지방 축적",
-    "predicate": "causes",
-    "object": "분만 후 식욕 부진 발생 가능성 증가"
-  },
-  {
-    "idx": 6,
-    "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
-    "subject": "임신 후 2개월",
-    "predicate": "is duration for",
-    "object": "영양소 수준 유지"
+    "predicate": "increases possibility of",
+    "object": "케토시스"
   },
   {
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
     "subject": "영양소 수준 유지",
-    "predicate": "prevents",
-    "object": "난산 발생 위험 증가"
+    "predicate": "is important for",
+    "object": "임신 후 2개월"
   },
   {
     "idx": 6,
     "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
-    "subject": "영양소 수준 유지",
-    "predicate": "prevents",
-    "object": "분만 후 케토시스 발생 가능성 증가"
-  },
-  {
-    "idx": 6,
-    "question": "한우 번식암소의 임신 후기에 농후사료를 과다 섭취했을 때 발생할 수 있는 주요 위험은?",
-    "subject": "영양소 수준 유지",
-    "predicate": "prevents",
-    "object": "분만 후 식욕 부진 발생 가능성 증가"
-  },
-  {
-    "idx": 7,
-    "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
-    "subject": "일반적인 우량",
-    "predicate": "는",
-    "object": "2~5산차에 걸쳐 최대 유량이 점진적으로 증가하는 경향을 보인다"
+    "subject": "임신 후기",
+    "predicate": "is period of",
+    "object": "농후사료 과다 섭취 risk"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
     "subject": "최대 유량",
-    "predicate": "는",
-    "object": "2~5산차에 걸쳐 점진적으로 증가한다"
+    "predicate": "점진적으로 증가하는 경향이 있다",
+    "object": "2~5산차에 걸쳐"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
     "subject": "에너지 요구량",
-    "predicate": "는",
-    "object": "최대 유량과 비례하여 증가한다"
+    "predicate": "증가한다",
+    "object": "최대 유량에 비례하여"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
     "subject": "단백질 요구량",
-    "predicate": "는",
-    "object": "최대 유량과 비례하여 증가한다"
+    "predicate": "증가한다",
+    "object": "최대 유량에 비례하여"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
-    "subject": "5산차 이후의 유선 기능",
-    "predicate": "는",
-    "object": "저하된다"
+    "subject": "유량",
+    "predicate": "감소하기 시작한다",
+    "object": "5산차 이후"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
-    "subject": "5산차 이후의 유량",
-    "predicate": "는",
-    "object": "감소하기 시작한다"
+    "subject": "유선 기능",
+    "predicate": "저하된다",
+    "object": "5산차 이후"
   },
   {
     "idx": 7,
     "question": "젖소의 산차(Lactation Number)가 증가함에 따라 유량과 영양소 요구량은 어떻게 변화하며, 관리 시 유의할 점은?",
-    "subject": "고산차우",
-    "predicate": "에 대해서는",
-    "object": "개체별 정밀한 영양 관리가 필요하다"
+    "subject": "개체별 정밀한 영양 관리",
+    "predicate": "필요하다",
+    "object": "고산차우에 대해서"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "비타민 E",
-    "predicate": "는",
+    "subject": "비타민 E 급여",
+    "predicate": "효과",
     "object": "강력한 항산화 효과"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "비타민 E 급여",
-    "predicate": "는",
-    "object": "육색 안정"
+    "subject": "강력한 항산화 효과",
+    "predicate": "목적",
+    "object": "육색 안정적이고 선홍색으로 유지"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "비타민 E 급여",
-    "predicate": "는",
-    "object": "선홍색 유지"
-  },
-  {
-    "idx": 8,
-    "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "비타민 E 급여",
-    "predicate": "는",
+    "subject": "강력한 항산화 효과",
+    "predicate": "목적",
     "object": "지방의 산패 지연"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "비타민 E 급여",
-    "predicate": "는",
-    "object": "고기의 저장성 향상"
-  },
-  {
-    "idx": 8,
-    "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
-    "subject": "육색",
-    "predicate": "는",
-    "object": "도체 품질의 한 요소"
+    "subject": "지방의 산패 지연",
+    "predicate": "결과",
+    "object": "고기 저장성 높임"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
     "subject": "비타민 E 급여",
-    "predicate": "는",
-    "object": "소비자의 선호도 향상에 영향을 미침"
+    "predicate": "영향",
+    "object": "소비자 선호도 향상"
   },
   {
     "idx": 8,
     "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
     "subject": "비타민 E 급여",
-    "predicate": "는",
-    "object": "도체 품질 향상에 영향을 미침"
+    "predicate": "영향",
+    "object": "도체 품질 향상"
   },
   {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "TMR",
-    "predicate": "is a type of",
-    "object": "사료"
+    "idx": 8,
+    "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
+    "subject": "도체 품질",
+    "predicate": "포함",
+    "object": "육색 등급"
   },
   {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "사료 잔량 관리",
-    "predicate": "involves",
-    "object": "TMR 급여 횟수 증가"
+    "idx": 8,
+    "question": "한우 비육 후기에 비타민 E를 보충 급여하는 주된 목적과 효과를 도체 품질과 연관 지어 설명해주세요.",
+    "subject": "비타민 E 급여",
+    "predicate": "시기",
+    "object": "비육 후기"
   },
   {
     "idx": 9,
     "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
     "subject": "TMR 급여 횟수",
-    "predicate": "should be",
+    "predicate": "늘리다",
+    "object": "사료 잔량 관리"
+  },
+  {
+    "idx": 9,
+    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
+    "subject": "사료조의 사료를 자주 밀어주기",
+    "predicate": "제공하다",
+    "object": "신선하고 충분한 사료"
+  },
+  {
+    "idx": 9,
+    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
+    "subject": "TMR 급여 횟수",
+    "predicate": "권장 횟수",
     "object": "2~3회/일"
   },
   {
     "idx": 9,
     "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "사료조",
-    "predicate": "should be",
-    "object": "자주 밀어주기"
+    "subject": "음수량",
+    "predicate": "증가하다",
+    "object": "사료 급여 직후"
   },
   {
     "idx": 9,
     "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "사료",
-    "predicate": "should be",
-    "object": "신선하고 충분한"
+    "subject": "음수량",
+    "predicate": "증가하다",
+    "object": "야간"
   },
   {
     "idx": 9,
     "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "물",
-    "predicate": "should be",
-    "object": "충분히 제공"
-  },
-  {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "사료조 주변",
-    "predicate": "should have",
-    "object": "철저한 위생"
-  },
-  {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "사료 급여 직후",
-    "predicate": "causes",
+    "subject": "깨끗한 물",
+    "predicate": "충분히 제공하다",
     "object": "음수량 증가"
-  },
-  {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "야간",
-    "predicate": "causes",
-    "object": "음수량 증가"
-  },
-  {
-    "idx": 9,
-    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
-    "subject": "물 제공",
-    "predicate": "prevents",
-    "object": "dehydration"
   },
   {
     "idx": 9,
     "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
     "subject": "사료조 주변 위생",
-    "predicate": "prevents",
-    "object": "질병"
+    "predicate": "철저히 하다",
+    "object": "물과 청결 유지"
+  },
+  {
+    "idx": 9,
+    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
+    "subject": "사료",
+    "predicate": "섭취할 수 있도록",
+    "object": "24시간"
+  },
+  {
+    "idx": 9,
+    "question": "젖소의 TMR 급여 시 사료 섭취량을 늘리기 위한 구체적인 방법 2가지는?",
+    "subject": "사료 잔량 관리",
+    "predicate": "목표",
+    "object": "항상 신선하고 충분한 사료 제공"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
     "subject": "유방 청결",
-    "predicate": "는",
-    "object": "유질 등급을 높이는 데 필수적"
+    "predicate": "낮추다",
+    "object": "우유의 세균수"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
     "subject": "유방 청결",
-    "predicate": "는",
-    "object": "우유의 세균수를 낮추는 데 도움이 됨"
+    "predicate": "예방하다",
+    "object": "체세포 수 상승"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
     "subject": "유방 청결",
-    "predicate": "는",
-    "object": "체세포 수 상승을 예방하는 데 도움이 됨"
+    "predicate": "높이다",
+    "object": "유질 등급"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "착유 전 처치",
-    "predicate": "는",
-    "object": "3단계로 이루어짐"
+    "subject": "유방 청결",
+    "predicate": "필수적이다",
+    "object": "유질 등급을 높이는 데"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "착유 전 처치의 1단계",
-    "predicate": "는",
-    "object": "유두 소독 및 잔여물 제거"
+    "subject": "올바른 착유 전 처치",
+    "predicate": "이루어지다",
+    "object": "3단계"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "착유 전 처치의 2단계",
-    "predicate": "는",
-    "object": "마사지 및 유방 자극"
+    "subject": "올바른 착유 전 처치",
+    "predicate": "포함하다",
+    "object": "유두 소독(Pre-dip)"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "착유 전 처치의 3단계",
-    "predicate": "는",
+    "subject": "올바른 착유 전 처치",
+    "predicate": "포함하다",
+    "object": "잔여물 제거"
+  },
+  {
+    "idx": 10,
+    "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
+    "subject": "올바른 착유 전 처치",
+    "predicate": "포함하다",
+    "object": "마사지"
+  },
+  {
+    "idx": 10,
+    "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
+    "subject": "올바른 착유 전 처치",
+    "predicate": "포함하다",
+    "object": "유방 자극(착유 개시)"
+  },
+  {
+    "idx": 10,
+    "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
+    "subject": "올바른 착유 전 처치",
+    "predicate": "포함하다",
     "object": "유두 건조"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
     "subject": "유두 건조",
-    "predicate": "는",
-    "object": "잔여 세균의 유두관 침입을 막는 데 중요"
+    "predicate": "막다",
+    "object": "잔여 세균의 유두관 침입"
   },
   {
     "idx": 10,
     "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "유두 소독",
-    "predicate": "는",
-    "object": "Pre-dip"
-  },
-  {
-    "idx": 10,
-    "question": "젖소의 착유 시 유방 청결 관리가 중요한 이유와 올바른 착유 전 처치 단계는?",
-    "subject": "착유 전 처치",
-    "predicate": "는",
-    "object": "유방 청결을 위한 필수적인 과정"
+    "subject": "유두 건조",
+    "predicate": "중요하다",
+    "object": "잔여 세균의 유두관 침입을 막는 데"
   },
   {
     "idx": 11,
     "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
     "subject": "착유 횟수",
-    "predicate": "증가하면",
+    "predicate": "증가시키면",
     "object": "유량 증가"
   },
   {
     "idx": 11,
     "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
-    "subject": "착유 횟수 2회에서 3회로 증가",
-    "predicate": "유발한다",
+    "subject": "착유 횟수",
+    "predicate": "2회에서 3회로 늘리면",
     "object": "유량 약 10~20% 증가"
   },
   {
     "idx": 11,
     "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
-    "subject": "유량",
-    "predicate": "증가하면",
-    "object": "총 유지방 생산량 증가"
-  },
-  {
-    "idx": 11,
-    "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
-    "subject": "유지방률",
-    "predicate": "변화",
-    "object": "큰 변화가 없거나 약간 감소"
-  },
-  {
-    "idx": 11,
-    "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
-    "subject": "착유 횟수 증가",
-    "predicate": "考虑해야 한다",
-    "object": "노동력 및 설비 유지보수 비용 증가"
+    "subject": "유성분 중 유지방률",
+    "predicate": "큰 변화가 없거나",
+    "object": "약간 감소할 수 있음"
   },
   {
     "idx": 11,
     "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
     "subject": "유량 증가",
-    "predicate": "결과이다",
-    "object": "착유 횟수 2회에서 3회로 증가"
+    "predicate": "결과적으로",
+    "object": "총 유지방 생산량 증가"
   },
   {
     "idx": 11,
     "question": "젖소의 착유 횟수(2회 vs 3회)가 유량과 유성분에 미치는 영향은?",
-    "subject": "총 유지방 생산량",
-    "predicate": "증가한다",
-    "object": "유량 증가로 인해"
+    "subject": "착유 횟수 증가",
+    "predicate": "고려해야 함",
+    "object": "노동력 및 설비 유지보수 비용 증가"
   },
   {
     "idx": 12,
     "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
-    "subject": "난산",
-    "predicate": "는",
-    "object": "임신 후기 태아의 과도한 성장과 모체의 비만의 결과"
-  },
-  {
-    "idx": 12,
-    "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
-    "subject": "임신 후기 태아의 과도한 성장",
-    "predicate": "는",
-    "object": "난산의 주된 원인"
+    "subject": "태아의 과도한 성장",
+    "predicate": "주된 원인",
+    "object": "난산"
   },
   {
     "idx": 12,
     "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
     "subject": "모체의 비만",
-    "predicate": "는",
-    "object": "난산의 주된 원인"
+    "predicate": "주된 원인",
+    "object": "난산"
   },
   {
     "idx": 12,
     "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
     "subject": "고에너지 사료 급여",
-    "predicate": "를",
-    "object": "분만 예정일 2개월 전부터 제한해야 함"
+    "predicate": "제한해야 함",
+    "object": "분만 예정일 2개월 전"
+  },
+  {
+    "idx": 12,
+    "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
+    "subject": "적절한 운동",
+    "predicate": "시켜야 함",
+    "object": "모체"
+  },
+  {
+    "idx": 12,
+    "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
+    "subject": "BCS 3.0 내외",
+    "predicate": "유지해야 함",
+    "object": "모체"
   },
   {
     "idx": 12,
     "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
     "subject": "분만 예정우",
-    "predicate": "는",
-    "object": "분만 예정일 2개월 전부터 적절한 운동을 해야 함"
+    "predicate": "이동시켜야 함",
+    "object": "분만실"
   },
   {
     "idx": 12,
     "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
     "subject": "분만 예정우",
-    "predicate": "의 BCS",
-    "object": "3.0 내외"
-  },
-  {
-    "idx": 12,
-    "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
-    "subject": "분만 예정우",
-    "predicate": "를",
-    "object": "분만 예정일 2개월 전부터 분만실로 이동시켜야 함"
-  },
-  {
-    "idx": 12,
-    "question": "한우 번식우의 난산을 예방하기 위한 임신 후기 관리 방법은?",
-    "subject": "분만 예정우",
-    "predicate": "에 대한 관찰",
-    "object": "충분히 해야 함"
+    "predicate": "충분한 관찰 해야 함",
+    "object": "분만실"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
-    "subject": "인",
-    "predicate": "은",
-    "object": "칼슘 대사에 부정적인 영향을 미칠 수 있는 요소"
+    "subject": "과다 급여",
+    "predicate": "부정적인 영향을 미칠 수 있습니다",
+    "object": "칼슘 대사"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
     "subject": "인의 과다 급여",
-    "predicate": "는",
-    "object": "칼슘 대사에 부정적인 영향을 미칠 수 있다"
+    "predicate": "발생 시점",
+    "object": "건유기"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
-    "subject": "인의 요구량",
-    "predicate": "을",
-    "object": "초과하여 급여하지 않도록 주의해야 한다"
+    "subject": "주의",
+    "predicate": "필요합니다",
+    "object": "인의 요구량을 초과하여 급여하지 않도록"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
-    "subject": "칼슘과 인의 적정 비율",
-    "predicate": "을",
-    "object": "유지하는 것이 중요하다"
+    "subject": "유지하는 것이 중요합니다",
+    "predicate": "무엇을",
+    "object": "칼슘과 인의 적정 비율"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
-    "subject": "인 제한",
-    "predicate": "은",
-    "object": "PTH 분비를 촉진한다"
+    "subject": "인을 제한하여",
+    "predicate": "촉진하는 데 도움이 됩니다",
+    "object": "PTH 분비"
   },
   {
     "idx": 13,
     "question": "젖소의 저칼슘혈증(Milk Fever)을 예방하기 위한 건유기 관리 중 인(Phosphorus) 급여 기준에 대한 유의점은?",
     "subject": "PTH 분비 촉진",
-    "predicate": "은",
-    "object": "칼슘 동원력을 높이는 데 도움이 된다"
+    "predicate": "도움이 됩니다",
+    "object": "칼슘 동원력 높이는 데"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
     "subject": "급격한 사료 변화",
-    "predicate": "causes",
+    "predicate": "피해야 한다",
+    "object": "출하 직전"
+  },
+  {
+    "idx": 14,
+    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
+    "subject": "과도한 농후사료 증량",
+    "predicate": "피해야 한다",
+    "object": "출하 직전"
+  },
+  {
+    "idx": 14,
+    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
+    "subject": "사료 섭취량",
+    "predicate": "일정하게 유지해야 한다",
+    "object": "출하 직전"
+  },
+  {
+    "idx": 14,
+    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
+    "subject": "급격한 사료 변화",
+    "predicate": "유발한다",
     "object": "소화기 문제"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
     "subject": "소화기 문제",
-    "predicate": "causes",
+    "predicate": "높인다",
     "object": "스트레스"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
     "subject": "스트레스",
-    "predicate": "causes",
-    "object": "도체 품질 저하"
+    "predicate": "영향을 줄 수 있다",
+    "object": "최종 도체 품질"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
     "subject": "급격한 사료 변화",
-    "predicate": "affects",
-    "object": "도체 품질"
+    "predicate": "영향을 줄 수 있다",
+    "object": "최종 도체 품질"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
-    "subject": "도체 품질",
-    "predicate": "is affected by",
+    "subject": "과도한 농후사료 증량",
+    "predicate": "영향을 줄 수 있다",
+    "object": "최종 도체 품질"
+  },
+  {
+    "idx": 14,
+    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
+    "subject": "최종 도체 품질",
+    "predicate": "포함한다",
     "object": "육색"
   },
   {
     "idx": 14,
     "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
-    "subject": "도체 품질",
-    "predicate": "is affected by",
+    "subject": "최종 도체 품질",
+    "predicate": "포함한다",
     "object": "pH"
   },
   {
-    "idx": 14,
-    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
-    "subject": "사료 섭취량",
-    "predicate": "should be",
-    "object": "일정하게 유지"
-  },
-  {
-    "idx": 14,
-    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
-    "subject": "출하 직전",
-    "predicate": "should avoid",
-    "object": "급격한 사료 변화"
-  },
-  {
-    "idx": 14,
-    "question": "한우 비육우의 출하 전 2주 동안 사료 관리의 유의점은?",
-    "subject": "출하 직전",
-    "predicate": "should avoid",
-    "object": "과도한 농후사료 증량"
-  },
-  {
     "idx": 15,
     "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "TMR 잔량",
-    "predicate": "는",
-    "object": "5% 이내"
+    "subject": "TMR 잔량 5% 이내",
+    "predicate": "보장한다",
+    "object": "소가 24시간 동안 충분한 사료 섭취"
   },
   {
     "idx": 15,
     "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
     "subject": "TMR 잔량 5% 이내",
-    "predicate": "는",
-    "object": "소가 24시간 동안 충분한 사료 섭취 보장"
+    "predicate": "막는다",
+    "object": "사료 선별 섭취(Sorting)"
   },
   {
     "idx": 15,
     "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
     "subject": "TMR 잔량 5% 이내",
-    "predicate": "는",
-    "object": "사료 선별 섭취 막음"
+    "predicate": "유도한다",
+    "object": "영양소의 균형 있는 섭취"
   },
   {
     "idx": 15,
     "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "사료 선별 섭취",
-    "predicate": "는",
-    "object": "영양소 균형 섭취 방해"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "TMR 잔량 5% 이내",
-    "predicate": "는",
-    "object": "영양소 균형 있는 섭취 유도"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "TMR 잔량 0%",
-    "predicate": "는",
+    "subject": "잔량 0%",
+    "predicate": "의미한다",
     "object": "사료 섭취 시간 부족"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "사료 섭취 시간",
-    "predicate": "는",
-    "object": "24시간"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "사료 선별 섭취",
-    "predicate": "는",
-    "object": "사료 섭취 방해"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "TMR 잔량 관리",
-    "predicate": "는",
-    "object": "사료 섭취 보장을 위함"
-  },
-  {
-    "idx": 15,
-    "question": "젖소의 TMR 급여 시 사료 잔량을 5% 이내로 남기는 것이 중요한 이유는?",
-    "subject": "TMR 잔량 관리",
-    "predicate": "는",
-    "object": "영양소 균형 섭취 유도를 위함"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
     "subject": "지방",
-    "predicate": "는",
-    "object": "에너지 밀도가 매우 높은 사료"
+    "predicate": "is a",
+    "object": "energy source"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
-    "subject": "에너지 밀도",
-    "predicate": "는",
-    "object": "사료 섭취량 증가 없이 에너지 공급량을 극대화하는 데 도움을 줍니다"
+    "subject": "지방",
+    "predicate": "has",
+    "object": "high energy density"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
-    "subject": "사료 섭취량 증가",
-    "predicate": "없이",
-    "object": "에너지 공급량을 극대화"
+    "subject": "지방",
+    "predicate": "increases",
+    "object": "energy supply"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
-    "subject": "에너지 공급량",
-    "predicate": "을",
-    "object": "극대화하여 유량을 늘리는 데 도움을 줍니다"
+    "subject": "지방",
+    "predicate": "increases",
+    "object": "milk yield"
+  },
+  {
+    "idx": 16,
+    "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
+    "subject": "지방",
+    "predicate": "does not require",
+    "object": "increased feed intake"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
     "subject": "첨가 지방",
-    "predicate": "는",
-    "object": "반추위 미생물의 섬유소 소화에 방해가 될 수 있습니다"
+    "predicate": "can interfere with",
+    "object": "rumen microbial fiber digestion"
   },
   {
     "idx": 16,
     "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
     "subject": "반추위 보호 지방",
-    "predicate": "는",
-    "object": "반추위 미생물의 섬유소 소화에 방해를 주지 않는 형태의 지방"
-  },
-  {
-    "idx": 16,
-    "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
-    "subject": "Protected Fat",
-    "predicate": "는",
-    "object": "반추위 보호 지방의 영문 명칭"
-  },
-  {
-    "idx": 16,
-    "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
-    "subject": "사료",
-    "predicate": "에",
-    "object": "Protected Fat 형태의 지방을 사용해야 합니다"
-  },
-  {
-    "idx": 17,
-    "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "기존 사료와의 혼합 급여",
     "predicate": "is a type of",
-    "object": "스트레스 감소 방법"
+    "object": "protected fat"
+  },
+  {
+    "idx": 16,
+    "question": "젖소의 유량을 높이기 위해 사료에 지방 첨가제(Fat Supplement)를 사용하는 원리와 유의점은?",
+    "subject": "using protected fat",
+    "predicate": "is important for",
+    "object": "preventing interference with rumen microbial fiber digestion"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
     "subject": "기존 사료와의 혼합 급여",
-    "predicate": "should be done for",
-    "object": "스트레스 감소"
+    "predicate": "is a method for",
+    "object": "점진적 교체"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "이유 전 먹던 사료",
-    "predicate": "is mixed with",
+    "subject": "기존 사료와의 혼합 급여",
+    "predicate": "involves mixing",
+    "object": "이유 전 먹던 사료"
+  },
+  {
+    "idx": 17,
+    "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
+    "subject": "기존 사료와의 혼합 급여",
+    "predicate": "involves mixing with",
     "object": "육성 사료"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "사료 교체",
-    "predicate": "should be done over",
+    "subject": "기존 사료와의 혼합 급여",
+    "predicate": "lasts for",
     "object": "약 2주간"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "사료 교체",
-    "predicate": "prevents",
+    "subject": "기존 사료와의 혼합 급여",
+    "predicate": "reduces",
     "object": "급격한 변화에 의한 스트레스"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "양질의 건초",
-    "predicate": "is recommended for",
+    "subject": "양질의 건초 계속 급여",
+    "predicate": "is a recommended action for",
     "object": "반추위 기능 유지"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "양질의 건초",
-    "predicate": "is recommended for",
+    "subject": "양질의 건초 계속 급여",
+    "predicate": "is a recommended action for",
     "object": "스트레스 완화"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "양질의 건초",
-    "predicate": "should be provided in amount",
-    "object": "충분히"
+    "subject": "양질의 건초 계속 급여",
+    "predicate": "involves providing",
+    "object": "양질의 기호성 좋은 건초"
   },
   {
     "idx": 17,
     "question": "한우 송아지의 이유 후 사료 섭취량 감소를 막기 위한 관리 방법 2가지는?",
-    "subject": "기호성 좋은 건초",
+    "subject": "양질의 건초 계속 급여",
+    "predicate": "involves providing",
+    "object": "충분히"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "비유 후기 과비",
     "predicate": "is a type of",
-    "object": "양질의 건초"
+    "object": "BCS 4.0 이상"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "비유 후기 과비",
+    "predicate": "increases risk of",
+    "object": "대사성 질병 발생"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "대사성 질병 발생",
+    "predicate": "includes",
+    "object": "지방간"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "대사성 질병 발생",
+    "predicate": "includes",
+    "object": "케토시스"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "지방간",
+    "predicate": "occurs during",
+    "object": "다음 산차 건유기"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "지방간",
+    "predicate": "occurs during",
+    "object": "비유 초기"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "케토시스",
+    "predicate": "occurs during",
+    "object": "다음 산차 건유기"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "케토시스",
+    "predicate": "occurs during",
+    "object": "비유 초기"
+  },
+  {
+    "idx": 18,
+    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
+    "subject": "농후사료 급여량",
+    "predicate": "should be reduced during",
+    "object": "비유 후기"
   },
   {
     "idx": 18,
     "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
     "subject": "비유 후기",
-    "predicate": "는",
-    "object": "과비(BCS 4.0 이상)가 되면"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "과비(BCS 4.0 이상)",
-    "predicate": "는",
-    "object": "다음 산차의 건유기와 비유 초기에 지방간이나 케토시스 등의 대사성 질병 발생 위험이 높아짐을 유발한다"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "비유 후기",
-    "predicate": "에는",
-    "object": "BCS 3.0~3.5를 유지해야 한다"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "BCS 3.0~3.5 유지",
-    "predicate": "를 위해",
-    "object": "농후사료 급여량을 줄여야 한다"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "농후사료 급여량 줄이기",
-    "predicate": "는",
-    "object": "비유 후기의 BCS 3.0~3.5 유지에 추천된다"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "과비(BCS 4.0 이상)",
-    "predicate": "는",
-    "object": "다음 산차의 건유기와 비유 초기에 지방간이나 케토시스 등의 대사성 질병 발생 위험을 높인다"
-  },
-  {
-    "idx": 18,
-    "question": "젖소의 비유 후기에 과비를 예방해야 하는 이유와 적정 BCS 범위는?",
-    "subject": "비유 후기",
-    "predicate": "에는",
-    "object": "농후사료 급여량을 줄여야 한다"
+    "predicate": "recommended BCS range",
+    "object": "3.0~3.5"
   },
   {
     "idx": 19,
     "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
     "subject": "장거리 운송으로 지친 송아지",
-    "predicate": "is a type of",
-    "object": "탈수 상태"
+    "predicate": "상태",
+    "object": "탈수"
   },
   {
     "idx": 19,
     "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
-    "subject": "송아지",
-    "predicate": "should be given",
-    "object": "깨끗하고 신선한 물"
-  },
-  {
-    "idx": 19,
-    "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
-    "subject": "물통",
-    "predicate": "should be installed at",
-    "object": "송아지가 쉽게 접근할 수 있는 높이"
+    "subject": "축사에 도착하자마자",
+    "predicate": "해야 합니다",
+    "object": "깨끗하고 신선한 물을 충분히 마시도록"
   },
   {
     "idx": 19,
     "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
     "subject": "물통",
-    "predicate": "should be managed to have",
-    "object": "적절한 온도"
+    "predicate": "설치해야 합니다",
+    "object": "송아지가 쉽게 접근할 수 있는 높이에"
   },
   {
     "idx": 19,
     "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
-    "subject": "적절한 온도",
-    "predicate": "prevents",
-    "object": "too low temperature"
-  },
-  {
-    "idx": 19,
-    "question": "한우 송아지 입식 시 스트레스 완화를 위해 물을 어떻게 관리해야 하나요?",
-    "subject": "송아지",
-    "predicate": "should drink",
-    "object": "충분한 양의 물"
+    "subject": "물통",
+    "predicate": "관리해야 합니다",
+    "object": "온도가 너무 낮지 않도록"
   },
   {
     "idx": 20,
     "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
     "subject": "라이너",
-    "predicate": "는",
-    "object": "착유 시 유두에 직접 접촉하여 마찰과 압력을 가하는 소모품"
-  },
-  {
-    "idx": 20,
-    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
-    "subject": "착유 효율",
-    "predicate": "떨어질 때",
-    "object": "유두 끝 손상 및 유방염 발생 위험이 높아짐"
+    "predicate": "is a",
+    "object": "소모품"
   },
   {
     "idx": 20,
     "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
     "subject": "라이너",
-    "predicate": "교체해야 하는 기간",
+    "predicate": "applies",
+    "object": "마찰과 압력"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "마찰과 압력",
+    "predicate": "applied to",
+    "object": "유두"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "마찰과 압력",
+    "predicate": "applied during",
+    "object": "착유 시"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "라이너",
+    "predicate": "causes",
+    "object": "착유 효율 저하"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "라이너",
+    "predicate": "increases risk of",
+    "object": "유두 끝 손상"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "라이너",
+    "predicate": "increases risk of",
+    "object": "유방염 발생"
+  },
+  {
+    "idx": 20,
+    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
+    "subject": "라이너",
+    "predicate": "should be replaced within",
     "object": "착유 2,000~2,500회"
   },
   {
     "idx": 20,
     "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
     "subject": "라이너",
-    "predicate": "교체해야 하는 기간",
+    "predicate": "should be replaced within",
     "object": "제조업체가 권장하는 기간"
-  },
-  {
-    "idx": 20,
-    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
-    "subject": "라이너 교체",
-    "predicate": "해야 함",
-    "object": "착유 효율을 유지하기 위해"
-  },
-  {
-    "idx": 20,
-    "question": "젖소의 착유 기계 중 라이너의 교체 주기가 중요한 이유와 그 기준은?",
-    "subject": "라이너 교체",
-    "predicate": "해야 함",
-    "object": "유두 끝 손상 및 유방염 발생 위험을 낮추기 위해"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "오염되지 않아야 한다",
-    "object": "곰팡이·습기·이물질"
+    "predicate": "오염되지 않았는지 확인한다",
+    "object": "곰팡이"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 변경",
-    "predicate": "확인해야 한다",
-    "object": "급여 시간·양의 변경"
+    "subject": "사료",
+    "predicate": "오염되지 않았는지 확인한다",
+    "object": "습기"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체온",
-    "predicate": "관찰해야 한다",
-    "object": "소화기 문제 여부"
+    "subject": "사료",
+    "predicate": "오염되지 않았는지 확인한다",
+    "object": "이물질"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "반추·되새김",
-    "predicate": "관찰해야 한다",
-    "object": "소화기 문제 여부"
+    "subject": "사료",
+    "predicate": "점검한다",
+    "object": "갑자기 변경되었는지"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "배 팽만",
-    "predicate": "관찰해야 한다",
+    "subject": "사료",
+    "predicate": "점검한다",
+    "object": "급여 시간 바뀌었는지"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료",
+    "predicate": "점검한다",
+    "object": "급여 양 바뀌었는지"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "관찰한다",
+    "object": "체온"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "관찰한다",
+    "object": "반추 여부"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "관찰한다",
+    "object": "되새김 여부"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "관찰한다",
+    "object": "배 팽만"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "확인한다",
     "object": "소화기 문제 여부"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "같은 구역 다른 개체",
-    "predicate": "비교해야 한다",
-    "object": "환경·사료 문제 여부"
+    "predicate": "정상적으로 먹는지 비교한다",
+    "object": "환경 문제인지 판단"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "같은 구역 다른 개체",
+    "predicate": "정상적으로 먹는지 비교한다",
+    "object": "사료 문제인지 판단"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "식욕 저하",
-    "predicate": "질병의 초기 증상이다",
-    "object": "질병"
+    "predicate": "나타난다",
+    "object": "질병의 초기"
   },
   {
     "idx": 21,
     "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "지속적인 식욕 저하",
-    "predicate": "수사의사의 진단을 필요로 한다",
+    "subject": "식욕 저하",
+    "predicate": "지속되면 필요하다",
+    "object": "수의사의 진단"
+  },
+  {
+    "idx": 21,
+    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "식욕 저하",
+    "predicate": "지속되면 필요하다",
     "object": "조기 치료"
-  },
-  {
-    "idx": 21,
-    "question": "우군 중 일부가 먹이를 거의 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "조기 치료",
-    "predicate": "필요하다",
-    "object": "지속적인 식욕 저하"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "축사",
-    "predicate": "는",
-    "object": "암모니아나 이상한 화학 냄새가 심하게 나지 않는지 확인해야 한다"
+    "predicate": "암모니아 냄새",
+    "object": "심하게 나지 않는지 확인"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 저장고와 급여통",
-    "predicate": "를",
-    "object": "직접 점검하여 곰팡이, 변색, 이상 발효 냄새가 나는 사료가 섞여 있지 않은지 확인해야 한다"
+    "subject": "축사",
+    "predicate": "이상한 화학 냄새",
+    "object": "심하게 나지 않는지 확인"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고",
+    "predicate": "곰팡이",
+    "object": "섞여 있지 않은지 점검"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고",
+    "predicate": "변색",
+    "object": "섞여 있지 않은지 점검"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고",
+    "predicate": "이상 발효 냄새",
+    "object": "섞여 있지 않은지 점검"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급여통",
+    "predicate": "곰팡이",
+    "object": "섞여 있지 않은지 점검"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급여통",
+    "predicate": "변색",
+    "object": "섞여 있지 않은지 점검"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급여통",
+    "predicate": "이상 발효 냄새",
+    "object": "섞여 있지 않은지 점검"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물",
-    "predicate": "의",
-    "object": "색깔, 냄새, 부유물이 있는지 비교해야 한다"
+    "predicate": "색깔",
+    "object": "비교"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "냄새",
+    "object": "비교"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "부유물",
+    "object": "비교"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "무기력해 보이는 개체",
-    "predicate": "의",
-    "object": "체온을 측정하여 발열이 집단적으로 나타나는지 확인해야 한다"
+    "predicate": "체온",
+    "object": "측정"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체온 측정",
+    "predicate": "발열",
+    "object": "집단적으로 나타나는지 확인"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "환풍기",
-    "predicate": "의",
-    "object": "작동 상태를 점검해야 한다"
+    "predicate": "작동 상태",
+    "object": "점검"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "공기 흐름",
-    "predicate": "을",
-    "object": "점검해야 한다"
+    "predicate": "점검",
+    "object": "환풍기"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "환풍기",
-    "predicate": "를",
-    "object": "필요하면 즉시 작동시켜 환기를 강화해야 한다"
+    "subject": "문",
+    "predicate": "열어 환기 강화",
+    "object": "필요하면 즉시"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "문과 창",
-    "predicate": "을",
-    "object": "필요하면 즉시 열어 환기를 강화해야 한다"
+    "subject": "창",
+    "predicate": "열어 환기 강화",
+    "object": "필요하면 즉시"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급성 문제",
-    "predicate": "는",
-    "object": "여러 마리에서 동시에 반응이 느려지는 것을 의미한다"
+    "subject": "여러 마리에서 동시에 반응이 느려지는 것",
+    "predicate": "가능성",
+    "object": "급성 문제일 가능성이 큼"
   },
   {
     "idx": 22,
     "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "현장 점검",
-    "predicate": "와",
-    "object": "동시에 수의사에게 상황을 알리고 지도를 받는 것이 안전하다"
+    "predicate": "동시에",
+    "object": "수의사에게 상황 알림"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "현장 점검",
+    "predicate": "동시에",
+    "object": "수의사에게 지도 받음"
+  },
+  {
+    "idx": 22,
+    "question": "여러 마리가 동시에 반응이 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수의사에게 지도 받음",
+    "predicate": "안전",
+    "object": "현장 점검과 동시에"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "색깔이 탁한지 확인해야 한다"
+    "predicate": "색깔 확인",
+    "object": "탁하지 않음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "부유물이나 거품이 떠 있는지 확인해야 한다"
+    "predicate": "부유물 확인",
+    "object": "떠 있지 않음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물",
-    "predicate": "는",
-    "object": "금속 냄새, 썩은 냄새, 약품 냄새 등 평소와 다른 냄새가 나지 않는지 확인해야 한다"
+    "predicate": "거품 확인",
+    "object": "떠 있지 않음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "물통",
-    "predicate": "의",
-    "object": "전기 안전성은 확인해야 한다"
+    "subject": "물",
+    "predicate": "냄새 확인",
+    "object": "평소와 다른 냄새 없음"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물통 가장자리",
+    "predicate": "전기 감지 확인",
+    "object": "찌릿하게 느껴지지 않음"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물통 가장자리",
+    "predicate": "누전 가능성 확인",
+    "object": "없음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물통 주변 바닥",
-    "predicate": "는",
-    "object": "미끄럽지 않은지 확인해야 한다"
+    "predicate": "미끄러움 확인",
+    "object": "없음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "소",
-    "predicate": "는",
-    "object": "탈수나 질병으로 인해 스스로 물을 피하는 상황은 아닌지 확인해야 한다"
+    "subject": "물통 주변 바닥",
+    "predicate": "소가 미끄러졌던 흔적 확인",
+    "object": "없음"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수질",
-    "predicate": "에",
-    "object": "의심이 든다면 즉시 물 공급원을 점검·교체해야 한다"
+    "subject": "개체",
+    "predicate": "체온 점검",
+    "object": "정상"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "전기 안전성",
-    "predicate": "에",
-    "object": "의심이 든다면 즉시 전기 전문家的 도움을 받아야 한다"
+    "subject": "개체",
+    "predicate": "전신 상태 점검",
+    "object": "정상"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "는",
-    "object": "필요 시 도움을 줄 수 있다"
+    "subject": "탈수",
+    "predicate": "원인",
+    "object": "소가 물을 피함"
   },
   {
     "idx": 23,
     "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "전기 전문가",
-    "predicate": "는",
-    "object": "필요 시 도움을 줄 수 있다"
+    "subject": "질병",
+    "predicate": "원인",
+    "object": "소가 물을 피함"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수질 의심",
+    "predicate": "권장 조치",
+    "object": "물 공급원 점검·교체"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "전기 안전성 의심",
+    "predicate": "권장 조치",
+    "object": "물 공급원 점검·교체"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수질 의심",
+    "predicate": "필요 시 도움 요청",
+    "object": "수의사"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수질 의심",
+    "predicate": "필요 시 도움 요청",
+    "object": "전기 전문가"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "전기 안전성 의심",
+    "predicate": "필요 시 도움 요청",
+    "object": "수의사"
+  },
+  {
+    "idx": 23,
+    "question": "소가 물통 근처에도 가지 않으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "전기 안전성 의심",
+    "predicate": "필요 시 도움 요청",
+    "object": "전기 전문가"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "축사 내부 조명",
-    "predicate": "는",
-    "object": "소의 불편함을 유발할 수 있는 요인"
+    "predicate": "지나치게 밝음",
+    "object": "소 불편함 유발 가능"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "반사광",
-    "predicate": "는",
-    "object": "소의 불편함을 유발할 수 있는 요인"
+    "subject": "특정 구역 반사광",
+    "predicate": "심함",
+    "object": "소 불편함 유발 가능"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "큰 소음",
-    "predicate": "는",
-    "object": "소의 불편함을 유발할 수 있는 요인"
+    "predicate": "집중됨",
+    "object": "특정 구역"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "갑작스러운 기계음",
-    "predicate": "는",
-    "object": "소의 불편함을 유발할 수 있는 요인"
+    "predicate": "집중됨",
+    "object": "특정 구역"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사람의 왕래",
-    "predicate": "는",
-    "object": "소의 불편함을 유발할 수 있는 요인"
+    "predicate": "집중됨",
+    "object": "특정 구역"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "미끄러운 바닥",
-    "predicate": "는",
-    "object": "소의 안전을 위협하는 요인"
+    "subject": "어두운 곳 바닥",
+    "predicate": "미끄러운 부분 있음",
+    "object": "안전하지 않음"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "날카로운 물건",
-    "predicate": "는",
-    "object": "소의 안전을 위협하는 요인"
+    "subject": "어두운 곳 바닥",
+    "predicate": "날카로운 물건 있음",
+    "object": "안전하지 않음"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "소",
-    "predicate": "의",
-    "object": "체온을 확인해야 한다"
+    "subject": "소 체온",
+    "predicate": "확인",
+    "object": "통증 또는 질병 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "소",
-    "predicate": "의",
-    "object": "호흡을 확인해야 한다"
+    "subject": "소 호흡",
+    "predicate": "확인",
+    "object": "통증 또는 질병 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "소",
-    "predicate": "의",
-    "object": "보행 상태를 확인해야 한다"
+    "subject": "소 보행 상태",
+    "predicate": "확인",
+    "object": "통증 또는 질병 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "통증",
-    "predicate": "는",
-    "object": "소의 휴식 욕구를 증가시킬 수 있는 요인"
+    "predicate": "휴식 더 원함",
+    "object": "소"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "질병",
-    "predicate": "는",
-    "object": "소의 휴식 욕구를 증가시킬 수 있는 요인"
+    "predicate": "휴식 더 원함",
+    "object": "소"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만 전 징후",
-    "predicate": "는",
-    "object": "외음부 부종, 점액 분비, 꼬리 올림"
+    "subject": "분만 임박 암소",
+    "predicate": "외음부 부종 동반",
+    "object": "분만 전 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만이 임박한 암소",
-    "predicate": "는",
-    "object": "분만 전 징후를 확인해야 한다"
+    "subject": "분만 임박 암소",
+    "predicate": "점액 분비 동반",
+    "object": "분만 전 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "환경적인 원인",
-    "predicate": "를",
-    "object": "조정해야 한다"
+    "subject": "분만 임박 암소",
+    "predicate": "꼬리 올림 동반",
+    "object": "분만 전 징후"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "의",
-    "object": "평가를 받아야 한다"
+    "subject": "환경적인 원인 조정",
+    "predicate": "어두운 곳 고집 행동 지속",
+    "object": "스트레스 또는 질병 가능성 고려"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "스트레스",
-    "predicate": "는",
-    "object": "소의 어두운 곳만 고집하는 행동의 가능성"
+    "predicate": "수의사 평가 필요",
+    "object": "소"
   },
   {
     "idx": 24,
     "question": "소가 자꾸 어두운 곳에만 있으려고 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "질병",
-    "predicate": "는",
-    "object": "소의 어두운 곳만 고집하는 행동의 가능성"
+    "predicate": "수의사 평가 필요",
+    "object": "소"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "이유 후",
-    "predicate": "사용하는",
-    "object": "급수기의 물"
+    "subject": "급수기 물",
+    "predicate": "확인해야 함",
+    "object": "색"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기의 물",
-    "predicate": "확인해야 하는 항목",
-    "object": "색과 냄새, 부유물"
+    "subject": "급수기 물",
+    "predicate": "확인해야 함",
+    "object": "냄새"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수질",
-    "predicate": "문제가 없는지 확인해야 하는 이유",
-    "object": "이유 후"
+    "subject": "급수기 물",
+    "predicate": "확인해야 함",
+    "object": "부유물"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급수기 물",
+    "predicate": "확인해야 함",
+    "object": "수질 문제"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "송아지",
-    "predicate": "측정해야 하는 항목",
-    "object": "체온"
+    "predicate": "체온 측정해야 함",
+    "object": "송아지"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체온",
-    "predicate": "측정 목적",
-    "object": "호흡기 증상 확인"
+    "subject": "송아지",
+    "predicate": "관찰해야 함",
+    "object": "콧물"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡기 증상",
-    "predicate": "확인해야 하는 항목",
-    "object": "콧물·기침·호흡 증가"
+    "subject": "송아지",
+    "predicate": "관찰해야 함",
+    "object": "기침"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료와 물의 전환",
-    "predicate": "문제가 되는 경우",
-    "object": "급격한 전환"
+    "subject": "송아지",
+    "predicate": "관찰해야 함",
+    "object": "호흡 증가"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급격한 전환",
-    "predicate": "문제로 이어질 수 있는 경우",
-    "object": "이유 직후"
+    "subject": "송아지",
+    "predicate": "관찰해야 함",
+    "object": "호흡기 증상"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "이유 직후",
-    "predicate": "사료 종류나 급여 패턴의 변경",
-    "object": "크게 바뀌지 않았는지"
+    "subject": "사료와 물 전환",
+    "predicate": "급격하면 안 됨",
+    "object": "사료와 물 전환"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "탈수 징후",
-    "predicate": "확인해야 하는 항목",
-    "object": "눈이 들어가 보이거나 피부를 잡아당겼을 때 탄력이 늦게 돌아오는 등"
+    "subject": "이유 직후 사료 종류",
+    "predicate": "크게 바뀌지 않아야 함",
+    "object": "이유 직후 사료 종류"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "이유 직후 급여 패턴",
+    "predicate": "크게 바뀌지 않아야 함",
+    "object": "이유 직후 급여 패턴"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "눈",
+    "predicate": "확인해야 함",
+    "object": "들어가 보임"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "피부",
+    "predicate": "확인해야 함",
+    "object": "탄력"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "피부 탄력",
+    "predicate": "늦게 돌아오면 안 됨",
+    "object": "탈수 징후"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "수분 섭취 감소",
-    "predicate": "문제로 이어질 수 있는 경우",
-    "object": "탈수와 질병"
+    "predicate": "이어질 수 있음",
+    "object": "탈수"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "이상 징후",
-    "predicate": "대처 방법",
-    "object": "수의사와 상의해 조기 개입 방안을 세우기"
+    "subject": "수분 섭취 감소",
+    "predicate": "이어질 수 있음",
+    "object": "질병"
   },
   {
     "idx": 25,
     "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "이유 후",
-    "predicate": "주의해야 하는 항목",
-    "object": "수분 섭취 감소"
+    "subject": "이상",
+    "predicate": "보이면 해야 함",
+    "object": "수의사와 상의"
+  },
+  {
+    "idx": 25,
+    "question": "송아지가 이유 후 물 마시는 양이 급격히 줄 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수의사와 상의",
+    "predicate": "해야 함",
+    "object": "조기 개입 방안 수립"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "has 온도",
-    "object": "낮은 온도"
+    "subject": "밤 시간대 축사 온도",
+    "predicate": "낮아짐",
+    "object": "결로 발생 가능성"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "has 습도",
-    "object": "낮은 습도"
+    "subject": "밤 시간대 축사 습도",
+    "predicate": "낮아짐",
+    "object": "결로 발생 가능성"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "결로",
-    "predicate": "is prevented by",
-    "object": "낮은 축사 온도와 습도"
+    "subject": "먼지",
+    "predicate": "습기 참",
+    "object": "냄새 발생"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "먼지나 깔짚",
-    "predicate": "has 습기",
-    "object": "차 있는 습기"
-  },
-  {
-    "idx": 26,
-    "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "습기가 찬 먼지나 깔짚",
-    "predicate": "causes",
-    "object": "나쁨 냄새"
+    "subject": "깔짚",
+    "predicate": "습기 참",
+    "object": "냄새 발생"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "조용한 시간대",
-    "predicate": "is suitable for",
-    "object": "호흡 패턴 확인"
+    "predicate": "명확히 들림",
+    "object": "호흡 패턴"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡 패턴",
-    "predicate": "is checked by",
-    "object": "기침 빈도 확인"
+    "subject": "개체별 기침 빈도",
+    "predicate": "직접 확인",
+    "object": "조용한 시간대"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "환기량",
-    "predicate": "decreases at",
+    "predicate": "줄어듦",
     "object": "밤"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "환기 설정",
-    "predicate": "should be",
-    "object": "재점검"
+    "predicate": "재점검",
+    "object": "환기량 밤에 줄어드는 구조"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "기침이 많은 개체",
-    "predicate": "should be checked for",
-    "object": "체온"
+    "predicate": "체온 측정",
+    "object": "발열 여부 확인"
   },
   {
     "idx": 26,
     "question": "밤에 기침이 더 심해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체온",
-    "predicate": "is checked to determine",
+    "subject": "기침이 많은 개체",
+    "predicate": "체온 측정",
     "object": "발열 여부"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "콧물",
-    "predicate": "확인한다",
-    "object": "맑은지 또는 점액인지"
+    "predicate": "is",
+    "object": "맑은지 또는 점액인지 확인"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "측정한다",
+    "predicate": "measure",
     "object": "발열 여부"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "턱 아래·목 부종",
-    "predicate": "확인한다",
-    "object": "손으로 만져"
+    "subject": "발열 여부",
+    "predicate": "record",
+    "object": "체온 측정 결과"
+  },
+  {
+    "idx": 27,
+    "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "턱 아래 부종",
+    "predicate": "check by palpation",
+    "object": "여부"
+  },
+  {
+    "idx": 27,
+    "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "목 부종",
+    "predicate": "check by palpation",
+    "object": "여부"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "환기 상태",
-    "predicate": "점검한다",
-    "object": "자극적 공기 흐름 배제"
+    "predicate": "inspect",
+    "object": "상태"
+  },
+  {
+    "idx": 27,
+    "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "자극적 공기 흐름",
+    "predicate": "exclude",
+    "object": "흐름"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "먹이 섭취량",
-    "predicate": "기록한다",
-    "object": "변화를 확인"
+    "predicate": "record and compare",
+    "object": "변화"
   },
   {
     "idx": 27,
     "question": "코 주변이 젖어 있고 호흡이 빨라 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물 섭취량",
-    "predicate": "기록한다",
-    "object": "변화를 확인"
+    "predicate": "record and compare",
+    "object": "변화"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료 분진",
-    "predicate": "is a type of",
+    "predicate": "제거합니다",
     "object": "건조 원인"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "깔짚 먼지",
-    "predicate": "is a type of",
+    "predicate": "제거합니다",
     "object": "건조 원인"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물 분무",
-    "predicate": "maintains",
+    "predicate": "유지합니다",
     "object": "적정 습도"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "가습",
-    "predicate": "maintains",
+    "predicate": "유지합니다",
     "object": "적정 습도"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡음 변화 관찰",
-    "predicate": "should be done for",
-    "object": "건강 모니터링"
+    "subject": "호흡음 변화",
+    "predicate": "관찰합니다",
+    "object": "상태"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "코 건조·딱지 확인",
-    "predicate": "should be done for",
-    "object": "건강 모니터링"
+    "subject": "코 건조",
+    "predicate": "확인합니다",
+    "object": "상태"
   },
   {
     "idx": 28,
     "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "건강 이상",
-    "predicate": "requires",
+    "subject": "딱지",
+    "predicate": "확인합니다",
+    "object": "상태"
+  },
+  {
+    "idx": 28,
+    "question": "너무 건조한 환경에서 호흡이 거칠어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개선 후에도 지속되면",
+    "predicate": "필요합니다",
     "object": "수의사의 검토"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "눈물",
-    "predicate": "is checked for",
+    "predicate": "형태",
     "object": "맑은지"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "눈물",
-    "predicate": "is checked for",
-    "object": "진득하고 자극적인 형태"
+    "predicate": "형태",
+    "object": "진득하고 자극적인지"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "has",
-    "object": "공기질"
-  },
-  {
-    "idx": 29,
-    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "공기질",
-    "predicate": "includes",
+    "subject": "축사 공기질",
+    "predicate": "확인",
     "object": "암모니아"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "공기질",
-    "predicate": "includes",
+    "subject": "축사 공기질",
+    "predicate": "확인",
     "object": "먼지"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "공기질",
-    "predicate": "includes",
+    "subject": "축사 공기질",
+    "predicate": "확인",
     "object": "습도"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "바람의 흐름",
-    "predicate": "can cause",
-    "object": "눈과 기도 자극"
+    "subject": "자극 요인",
+    "predicate": "점검",
+    "object": "축사 공기질"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "기침하는 개체",
-    "predicate": "should be checked for",
-    "object": "체온"
+    "subject": "바람의 흐름",
+    "predicate": "몰려",
+    "object": "특정 구역"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "바람의 흐름",
+    "predicate": "자극",
+    "object": "눈"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "바람의 흐름",
+    "predicate": "자극",
+    "object": "기도"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "개체",
+    "predicate": "선정",
+    "object": "기침하는"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "is measured to check for",
+    "predicate": "측정",
+    "object": "기침하는 개체"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체온 측정",
+    "predicate": "확인",
     "object": "발열 여부"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "should be checked for",
-    "object": "변질"
+    "predicate": "상태",
+    "object": "변질되지 않았는지"
   },
   {
     "idx": 29,
     "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "should be checked for",
+    "predicate": "상태",
+    "object": "오염되지 않았는지"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "상태",
+    "object": "변질되지 않았는지"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "상태",
+    "object": "오염되지 않았는지"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 상태",
+    "predicate": "점검",
+    "object": "함께"
+  },
+  {
+    "idx": 29,
+    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물 상태",
+    "predicate": "점검",
+    "object": "함께"
+  },
+  {
+    "idx": 30,
+    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "축사 공기질",
+    "predicate": "확인",
+    "object": "암모니아·먼지·습기·열기 정체 여부"
+  },
+  {
+    "idx": 30,
+    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "환풍기·창문·출입문",
+    "predicate": "열어",
+    "object": "공기 흐름 개선"
+  },
+  {
+    "idx": 30,
+    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급수기",
+    "predicate": "받아",
+    "object": "물"
+  },
+  {
+    "idx": 30,
+    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "비교",
+    "object": "냄새·색·부유물 여부"
+  },
+  {
+    "idx": 30,
+    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급수",
+    "predicate": "가능성",
     "object": "오염"
   },
   {
-    "idx": 29,
-    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "물",
-    "predicate": "should be checked for",
-    "object": "변질"
-  },
-  {
-    "idx": 29,
-    "question": "여러 마리가 기침과 함께 눈물을 흘릴 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "물",
-    "predicate": "should be checked for",
-    "object": "오염"
-  },
-  {
     "idx": 30,
     "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "에는",
-    "object": "암모니아"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "에는",
-    "object": "먼지"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "에는",
-    "object": "습기"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사",
-    "predicate": "에는",
-    "object": "열기"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "환풍기",
-    "predicate": "를 열어",
-    "object": "공기 흐름 개선"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "창문",
-    "predicate": "를 열어",
-    "object": "공기 흐름 개선"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "출입문",
-    "predicate": "를 열어",
-    "object": "공기 흐름 개선"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기",
-    "predicate": "에서",
-    "object": "물 오염 확인"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기",
-    "predicate": "에서",
-    "object": "냄새 확인"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기",
-    "predicate": "에서",
-    "object": "색 확인"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기",
-    "predicate": "에서",
-    "object": "부유물 확인"
+    "subject": "사료",
+    "predicate": "확인",
+    "object": "변질 여부"
   },
   {
     "idx": 30,
     "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "변질 여부",
-    "object": "직접 확인"
+    "predicate": "점검",
+    "object": "냄새·색·이물질 여부"
   },
   {
     "idx": 30,
     "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "변질 여부",
-    "object": "냄새 확인"
+    "subject": "개체",
+    "predicate": "선정",
+    "object": "호흡이 힘든"
   },
   {
     "idx": 30,
     "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "변질 여부",
-    "object": "색 확인"
+    "subject": "개체",
+    "predicate": "측정",
+    "object": "체온"
   },
   {
     "idx": 30,
     "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "변질 여부",
-    "object": "이물질 확인"
-  },
-  {
-    "idx": 30,
-    "question": "여러 마리가 동시에 호흡을 힘들어할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡이 힘든 개체",
-    "predicate": "체온 측정",
-    "object": "집단 발열 여부 확인"
+    "subject": "집단",
+    "predicate": "여부",
+    "object": "발열"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "를 확인하기 위해",
-    "object": "냄새, 색, 온도, 이물질 여부를 비교한다"
+    "predicate": "확인한다",
+    "object": "냄새"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 저장고",
-    "predicate": "내부를 점검하여",
-    "object": "곰팡이, 결로, 응축된 물방울 흔적이 있는지 확인한다"
+    "subject": "사료",
+    "predicate": "확인한다",
+    "object": "색"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급수기",
-    "predicate": "를 점검하여",
-    "object": "물 흐름이 약하거나 막힌 곳이 없는지 확인한다"
+    "subject": "사료",
+    "predicate": "확인한다",
+    "object": "온도"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료",
+    "predicate": "확인한다",
+    "object": "이물질 여부"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 내부 벽",
+    "predicate": "점검한다",
+    "object": "곰팡이 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 내부 벽",
+    "predicate": "점검한다",
+    "object": "결로 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 내부 벽",
+    "predicate": "점검한다",
+    "object": "응축된 물방울 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 바닥",
+    "predicate": "점검한다",
+    "object": "곰팡이 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 바닥",
+    "predicate": "점검한다",
+    "object": "결로 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 저장고 바닥",
+    "predicate": "점검한다",
+    "object": "응축된 물방울 흔적"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급수기 밸브",
+    "predicate": "확인한다",
+    "object": "물 흐름 약함"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "급수기 밸브",
+    "predicate": "확인한다",
+    "object": "물 흐름 막힘"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물",
-    "predicate": "의 상태를 확인하여",
-    "object": "냄새와 탁도를 함께 본다"
+    "predicate": "확인한다",
+    "object": "냄새"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "몇 마리의 가축",
-    "predicate": "의 체온을 측정하여",
-    "object": "발열 개체가 있는지 기록한다"
+    "subject": "물",
+    "predicate": "확인한다",
+    "object": "탁도"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료나 물 오염",
-    "predicate": "이 의심되면",
-    "object": "해당 배치를 즉시 급여 중단한다"
+    "subject": "체온",
+    "predicate": "측정한다",
+    "object": "발열 개체"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료나 물 오염",
-    "predicate": "이 의심되면",
-    "object": "수의사와 상의하여 원인 조사와 조치를 진행한다"
+    "subject": "사료 오염 의심",
+    "predicate": "즉시 급여 중단한다",
+    "object": "해당 배치"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료나 물 오염",
-    "predicate": "는",
-    "object": "가축에게 해를 끼칠 수 있다"
+    "subject": "물 오염 의심",
+    "predicate": "즉시 급여 중단한다",
+    "object": "해당 배치"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 오염 의심",
+    "predicate": "상의한다",
+    "object": "수의사"
+  },
+  {
+    "idx": 31,
+    "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물 오염 의심",
+    "predicate": "상의한다",
+    "object": "수의사"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "수의사",
-    "predicate": "와 상의하여",
-    "object": "원인 조사와 조치를 진행한다"
+    "predicate": "진행한다",
+    "object": "원인 조사"
   },
   {
     "idx": 31,
     "question": "사료 급여 후 우군 식욕이 동시에 떨어질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "가축",
-    "predicate": "의 건강을 유지하기 위해",
-    "object": "정기적으로 사료와 물을 점검해야 한다"
+    "subject": "수의사",
+    "predicate": "진행한다",
+    "object": "조치"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "설사를 보이는 개체에서 채취한 변",
+    "predicate": "확인 방법",
+    "object": "육안 검사"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "변",
+    "predicate": "확인 항목",
+    "object": "색"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "변",
+    "predicate": "확인 항목",
+    "object": "점도"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "변",
+    "predicate": "확인 항목",
+    "object": "혈액 혼입 여부"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "변",
+    "predicate": "확인 항목",
+    "object": "점액 혼입 여부"
   },
   {
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "설사 개체",
-    "predicate": "보여주는 증상",
-    "object": "변의 색, 점도, 혈액이나 점액 혼입 여부"
+    "predicate": "체온 측정",
+    "object": "발열 양상 기록"
   },
   {
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "설사 개체",
-    "predicate": "측정 항목",
-    "object": "체온"
-  },
-  {
-    "idx": 32,
-    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체온",
-    "predicate": "변화 양상",
-    "object": "발열"
-  },
-  {
-    "idx": 32,
-    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료와 물",
+    "subject": "사료",
     "predicate": "검사 항목",
-    "object": "냄새, 색깔, 부유물 유무"
+    "object": "냄새"
   },
   {
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "축사 바닥과 깔짚",
-    "predicate": "설사로 인한 상태",
-    "object": "과도한 오염"
+    "subject": "사료",
+    "predicate": "검사 항목",
+    "object": "색깔"
   },
   {
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "오염된 구역",
-    "predicate": "처리 방법",
-    "object": "즉시 치우고 새 깔짚으로 교체"
+    "subject": "사료",
+    "predicate": "검사 항목",
+    "object": "부유물 유무"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "검사 항목",
+    "object": "냄새"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "검사 항목",
+    "object": "색깔"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "물",
+    "predicate": "검사 항목",
+    "object": "부유물 유무"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "축사 바닥과 깔짚이 설사로 과도하게 오염된 구역",
+    "predicate": "조치",
+    "object": "즉시 치우기"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "축사 바닥과 깔짚이 설사로 과도하게 오염된 구역",
+    "predicate": "조치",
+    "object": "새 깔짚으로 교체"
   },
   {
     "idx": 32,
@@ -2117,616 +2425,798 @@
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "집단 설사",
-    "predicate": "대응 방법",
-    "object": "조기에 수의사를 불러 원인 감별과 방역 지침을 받음"
+    "predicate": "조기 조치",
+    "object": "수의사 부르기"
   },
   {
     "idx": 32,
     "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "제공하는 정보",
-    "object": "원인 감별과 방역 지침"
+    "subject": "수의사 부르기",
+    "predicate": "목적",
+    "object": "원인 감별"
+  },
+  {
+    "idx": 32,
+    "question": "우군 전체에서 갑자기 설사가 늘어날 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "수의사 부르기",
+    "predicate": "목적",
+    "object": "방역 지침 받기"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "새롭게 도입한 사료",
+    "subject": "새로운 사료",
     "predicate": "비교 대상",
     "object": "기존 사료"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 교체",
-    "predicate": "추천 전환 기간",
-    "object": "7~10일"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "급격한 사료 교체",
-    "predicate": "유발 가능성",
-    "object": "소화기 이상"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 급여",
-    "predicate": "모니터링 항목",
-    "object": "반추위 팽만"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 급여",
-    "predicate": "모니터링 항목",
-    "object": "되새김 감소"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 급여",
-    "predicate": "모니터링 항목",
-    "object": "침흘림"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "검토 항목",
+    "subject": "새로운 사료",
+    "predicate": "비교 항목",
     "object": "냄새"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "검토 항목",
+    "subject": "새로운 사료",
+    "predicate": "비교 항목",
     "object": "색"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "검토 항목",
+    "subject": "새로운 사료",
+    "predicate": "비교 항목",
     "object": "입자 크기"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료",
-    "predicate": "검토 항목",
+    "subject": "새로운 사료",
+    "predicate": "비교 항목",
     "object": "기름기"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 교체",
+    "predicate": "점진적 전환 기간",
+    "object": "7~10일 이상"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 교체",
+    "predicate": "급격한 전환 기간",
+    "object": "하루 이틀 사이"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 급여 후",
+    "predicate": "관찰 항목",
+    "object": "반추위 팽만"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 급여 후",
+    "predicate": "관찰 항목",
+    "object": "되새김 감소"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 급여 후",
+    "predicate": "관찰 항목",
+    "object": "침흘림"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 급여 후",
+    "predicate": "관찰 항목",
+    "object": "소화기 이상 징후"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료를 먹은 직후",
+    "predicate": "살펴볼 행동",
+    "object": "특정 개체만 유난히 불편해 함"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료를 먹은 직후",
+    "predicate": "살펴볼 행동",
+    "object": "배를 차는 행동"
+  },
+  {
+    "idx": 33,
+    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "이상 행동",
-    "predicate": "대응 조치",
+    "predicate": "조치",
     "object": "사료 전환 속도 조절"
   },
   {
     "idx": 33,
     "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "이상 행동",
-    "predicate": "대응 조치",
-    "object": "수의사와 상의"
-  },
-  {
-    "idx": 33,
-    "question": "사료 교체 직후 이상 행동이 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "반추위 보호",
-    "predicate": "추천 조치",
-    "object": "반추위 보호 조치"
+    "predicate": "수의사 상담 필요",
+    "object": "반추위 보호 조치 검토"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "젖이나 분유",
-    "predicate": "는",
-    "object": "급여량·농도·온도 확인 대상"
+    "subject": "젖",
+    "predicate": "급여량",
+    "object": "표준 범위와 일치하는지 확인"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "송아지",
-    "predicate": "체상 평가 항목",
-    "object": "갈비뼈·엉덩뼈"
+    "subject": "분유",
+    "predicate": "급여량",
+    "object": "표준 범위와 일치하는지 확인"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체상 평가",
-    "predicate": "목적",
-    "object": "과도한 갈비뼈·엉덩뼈 만져짐 여부 확인"
+    "subject": "젖",
+    "predicate": "농도",
+    "object": "표준 범위와 일치하는지 확인"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "분유",
+    "predicate": "농도",
+    "object": "표준 범위와 일치하는지 확인"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "젖",
+    "predicate": "온도",
+    "object": "표준 범위와 일치하는지 확인"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "분유",
+    "predicate": "온도",
+    "object": "표준 범위와 일치하는지 확인"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "갈비뼈",
+    "predicate": "만져짐",
+    "object": "과도하지 않음"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "엉덩뼈",
+    "predicate": "만져짐",
+    "object": "과도하지 않음"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "변 상태",
-    "predicate": "정상 상태",
-    "object": "꾸준히 묽지 않음"
+    "predicate": "묽음",
+    "object": "꾸준함"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "변 상태",
-    "predicate": "정상 상태",
-    "object": "점액 섞여 있지 않음"
+    "predicate": "점액 섞임",
+    "object": "없음"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "설사",
-    "predicate": "유형",
-    "object": "만성 설사"
+    "subject": "만성 설사",
+    "predicate": "여부",
+    "object": "살펴봄"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡기 증상",
-    "predicate": "유형",
-    "object": "기침·콧물·호흡 증가"
+    "subject": "기침",
+    "predicate": "증상",
+    "object": "만성 호흡기 증상"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡기 증상",
-    "predicate": "발생 시기",
-    "object": "조용한 시간대"
+    "subject": "콧물",
+    "predicate": "증상",
+    "object": "만성 호흡기 증상"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "호흡 증가",
+    "predicate": "증상",
+    "object": "만성 호흡기 증상"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "만성 호흡기 증상",
+    "predicate": "없음",
+    "object": "조용한 시간대에 관찰"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "구충",
-    "predicate": "목적",
-    "object": "기생충 여부 확인"
+    "predicate": "여부",
+    "object": "확인"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "기생충 약",
-    "predicate": "투여 빈도",
-    "object": "부족하지 않음"
+    "subject": "기생충 약 투여 날짜",
+    "predicate": "부족하지 않음",
+    "object": "기록과 비교"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체중",
-    "predicate": "증가 기준",
-    "object": "1~2주 연속 증가"
+    "predicate": "증가하지 않음",
+    "object": "1~2주 연속"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체중 증가하지 않음",
     "predicate": "원인",
-    "object": "영양·질병"
+    "object": "영양"
   },
   {
     "idx": 34,
     "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체중 증가하지 않음",
-    "predicate": "대처 방법",
+    "predicate": "원인",
+    "object": "질병"
+  },
+  {
+    "idx": 34,
+    "question": "송아지가 체중이 잘 늘지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체중 증가하지 않음",
+    "predicate": "필요",
     "object": "수의사 평가"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "체온 측정",
-    "predicate": "를 통해 확인",
-    "object": "발열 여부"
+    "subject": "개체",
+    "predicate": "체온 측정",
+    "object": "발열 여부 확인"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "입안",
-    "predicate": "에 존재",
-    "object": "상처·침흘림·잇몸 출혈"
+    "subject": "입안 상처",
+    "predicate": "조사 방법",
+    "object": "손전등"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "손전등",
-    "predicate": "를 사용하여 조사",
-    "object": "입안"
+    "subject": "침흘림",
+    "predicate": "조사 방법",
+    "object": "손전등"
+  },
+  {
+    "idx": 35,
+    "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "잇몸 출혈",
+    "predicate": "조사 방법",
+    "object": "손전등"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "에 존재하지 않아야",
-    "object": "이물·습기·변색·곰팡이"
+    "predicate": "손으로 비벼보기",
+    "object": "이물 확인"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료",
-    "predicate": "를 확인하는 방법",
-    "object": "손으로 비벼보며"
+    "predicate": "손으로 비벼보기",
+    "object": "습기 확인"
+  },
+  {
+    "idx": 35,
+    "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료",
+    "predicate": "손으로 비벼보기",
+    "object": "변색 확인"
+  },
+  {
+    "idx": 35,
+    "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료",
+    "predicate": "손으로 비벼보기",
+    "object": "곰팡이 확인"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "반추음",
-    "predicate": "의 빈도",
+    "predicate": "감소 기준",
     "object": "2분에 1회 이하"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "반추음",
-    "predicate": "을 확인하는 방법",
-    "object": "귀를 대고"
+    "predicate": "확인 방법",
+    "object": "귀 대기"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 불쾌감 또는 질병",
-    "predicate": "의 가능성",
-    "object": "높음"
+    "subject": "사료 불쾌감",
+    "predicate": "가능성 높음",
+    "object": "질병"
   },
   {
     "idx": 35,
     "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사 진찰",
-    "predicate": "이 필요",
-    "object": "사료 불쾌감 또는 질병"
-  },
-  {
-    "idx": 35,
-    "question": "사료 먹는 속도가 갑자기 느려질 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사 진찰",
-    "predicate": "의 시기",
-    "object": "며칠 지속되기 전에"
+    "subject": "며칠 지속",
+    "predicate": "필요함",
+    "object": "수의사 진찰"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "분만 직후",
-    "predicate": "causes",
+    "predicate": "젖 생산량 증가",
     "object": "저칼슘혈증 위험 증가"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "저칼슘혈증",
-    "predicate": "is a type of",
-    "object": "위험"
+    "predicate": "위험",
+    "object": "매우 높음"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "귀·코",
-    "predicate": "should be checked for",
-    "object": "차갑거나 떨림"
+    "subject": "저칼슘혈증",
+    "predicate": "확인 방법",
+    "object": "귀·코 차가움"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "저칼슘혈증",
+    "predicate": "확인 방법",
+    "object": "떨림"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "should be measured to check for",
-    "object": "발열"
+    "predicate": "측정",
+    "object": "발열 여부 확인"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "39.5℃ 이상",
-    "predicate": "is a sign of",
-    "object": "자궁염·유방염"
+    "subject": "체온",
+    "predicate": "이상",
+    "object": "39.5℃"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체온 39.5℃ 이상",
+    "predicate": "가능성 의심",
+    "object": "자궁염"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체온 39.5℃ 이상",
+    "predicate": "가능성 의심",
+    "object": "유방염"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "유방",
-    "predicate": "should be checked for",
-    "object": "단단함·뜨거움·통증 반응"
+    "predicate": "만져 확인",
+    "object": "단단함"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "유방",
+    "predicate": "만져 확인",
+    "object": "뜨거움"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "유방",
+    "predicate": "만져 확인",
+    "object": "통증 반응"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "분만 후 배출물(오로)",
-    "predicate": "should be checked for",
-    "object": "악취·농성"
+    "predicate": "확인",
+    "object": "악취"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "사료 변질",
-    "predicate": "should be checked for",
-    "object": "환경적 원인"
+    "subject": "분만 후 배출물(오로)",
+    "predicate": "확인",
+    "object": "농성"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "분만 후 배출물(오로) 악취/농성",
+    "predicate": "점검",
+    "object": "자궁 회복 상태"
+  },
+  {
+    "idx": 36,
+    "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "사료 변질 여부",
+    "predicate": "점검",
+    "object": "환경적 원인 배제"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "물 흐름",
-    "predicate": "should be checked for",
-    "object": "환경적 원인"
+    "predicate": "점검",
+    "object": "환경적 원인 배제"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만 후 식욕 부진",
-    "predicate": "can lead to",
-    "object": "빠른 악화"
+    "subject": "분만 후",
+    "predicate": "식욕 부진",
+    "object": "빠르게 악화될 수 있음"
   },
   {
     "idx": 36,
     "question": "초임우가 분만 후 먹이를 잘 먹지 않을 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만 후 식욕 부진",
-    "predicate": "requires",
+    "subject": "이상 지속",
+    "predicate": "필요",
     "object": "즉시 수의사 진료"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "측정하여",
-    "object": "미열·발열 여부 확인"
+    "predicate": "확인",
+    "object": "미열·발열 여부"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "눈과 잇몸",
-    "predicate": "확인하여",
-    "object": "창백 여부"
+    "subject": "눈",
+    "predicate": "확인",
+    "object": "창백함"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "동물",
-    "predicate": "관찰하여",
-    "object": "절뚝거림이나 서 있기 어려운 모습 여부"
+    "subject": "잇몸",
+    "predicate": "확인",
+    "object": "창백함"
+  },
+  {
+    "idx": 37,
+    "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "절뚝거림",
+    "predicate": "관찰",
+    "object": "존재 여부"
+  },
+  {
+    "idx": 37,
+    "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "서 있기 어려운 모습",
+    "predicate": "관찰",
+    "object": "존재 여부"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "사료 섭취량",
-    "predicate": "점검하여",
-    "object": "정상 섭취량 여부"
+    "predicate": "점검",
+    "object": "상태"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "반추운동",
-    "predicate": "점검하여",
-    "object": "정상 반추운동 여부"
+    "predicate": "점검",
+    "object": "상태"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "임신 후기 동물",
-    "predicate": "제공하여야 한다",
-    "object": "편안한 바닥과 충분한 휴식 환경"
+    "subject": "임신 후기",
+    "predicate": "제공해야 함",
+    "object": "편안한 바닥"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "피로",
-    "predicate": "지속되면",
-    "object": "잠복 감염 또는 대사 문제 가능성"
+    "subject": "임신 후기",
+    "predicate": "제공해야 함",
+    "object": "충분한 휴식 환경"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "진단하여야 한다",
-    "object": "잠복 감염 또는 대사 문제"
+    "subject": "피로 지속",
+    "predicate": "가능성 있음",
+    "object": "잠복 감염"
   },
   {
     "idx": 37,
     "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "피로",
-    "predicate": "cause",
-    "object": "잠복 감염 또는 대사 문제 가능성"
+    "subject": "피로 지속",
+    "predicate": "가능성 있음",
+    "object": "대사 문제"
+  },
+  {
+    "idx": 37,
+    "question": "임신우가 평소보다 쉽게 피로해 보일 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "피로 지속",
+    "predicate": "필요함",
+    "object": "수의사 진단"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "를 측정하여",
-    "object": "발열 여부를 확인"
+    "predicate": "확인합니다",
+    "object": "발열 여부"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "호흡수",
-    "predicate": "가 증가",
-    "object": "호흡困難"
+    "predicate": "증가했는지",
+    "object": "관찰합니다"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "호흡수",
-    "predicate": "를 확인",
-    "object": "호흡困難 여부"
-  },
-  {
-    "idx": 38,
-    "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "동물",
-    "predicate": "가",
-    "object": "힘들어 보이는 자세를 취"
+    "subject": "힘들어 보이는 자세",
+    "predicate": "취하는지",
+    "object": "관찰합니다"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "발굽",
-    "predicate": "를 점검",
-    "object": "절뚝거림·부종 여부"
+    "predicate": "점검합니다",
+    "object": "절뚝거림"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "먹이·물",
-    "predicate": "섭취량",
-    "object": "변화 여부"
+    "subject": "발굽",
+    "predicate": "점검합니다",
+    "object": "부종"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "임신 후기",
-    "predicate": "에",
-    "object": "태아 움직임 감소 여부를 확인"
+    "subject": "먹이 섭취량",
+    "predicate": "변화",
+    "object": "확인합니다"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "군집 이탈",
-    "predicate": "는",
-    "object": "이상 신호"
-  },
-  {
-    "idx": 38,
-    "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "군집 이탈",
-    "predicate": "에",
-    "object": "즉시 수의사 점검이 필요"
-  },
-  {
-    "idx": 38,
-    "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "가",
-    "object": "즉시 점검"
+    "subject": "물 섭취량",
+    "predicate": "변화",
+    "object": "확인합니다"
   },
   {
     "idx": 38,
     "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "태아 움직임",
-    "predicate": "감소",
-    "object": "임신 후기 이상 신호"
+    "predicate": "감소 여부",
+    "object": "살펴봅니다"
+  },
+  {
+    "idx": 38,
+    "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "군집 이탈",
+    "predicate": "명확한 이상 신호",
+    "object": "입니다"
+  },
+  {
+    "idx": 38,
+    "question": "임신우가 군집에서 이탈해 혼자 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "군집 이탈",
+    "predicate": "필요합니다",
+    "object": "즉시 수의사 점검"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "귀·코 온도",
-    "predicate": "확인하여",
-    "object": "저칼슘혈증 여부 판단"
+    "subject": "귀 온도",
+    "predicate": "확인하다",
+    "object": "저칼슘혈증 여부"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "저칼슘혈증",
-    "predicate": "판단 기준",
-    "object": "귀·코 온도"
+    "subject": "코 온도",
+    "predicate": "확인하다",
+    "object": "저칼슘혈증 여부"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "일어나려 할 때",
-    "predicate": "관찰하여",
-    "object": "다리에 힘이 빠지는지 여부"
+    "subject": "다리 힘 빠짐",
+    "predicate": "관찰하다",
+    "object": "일어나려 할 때"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "체온",
-    "predicate": "측정하여",
-    "object": "발열 또는 저체온 여부 기록"
+    "predicate": "측정하다",
+    "object": "발열 여부"
+  },
+  {
+    "idx": 39,
+    "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "체온",
+    "predicate": "측정하다",
+    "object": "저체온 여부"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "유방 상태",
-    "predicate": "확인하여",
-    "object": "단단함·통증·부종 여부 점검"
+    "predicate": "확인하다",
+    "object": "단단함"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만 후 오로",
-    "predicate": "확인하여",
-    "object": "악취 또는 농색인지 여부"
+    "subject": "유방 상태",
+    "predicate": "확인하다",
+    "object": "통증"
+  },
+  {
+    "idx": 39,
+    "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "유방 상태",
+    "predicate": "확인하다",
+    "object": "부종"
+  },
+  {
+    "idx": 39,
+    "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "오로",
+    "predicate": "확인하다",
+    "object": "악취"
+  },
+  {
+    "idx": 39,
+    "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "오로",
+    "predicate": "확인하다",
+    "object": "농색"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "산후 기립불능",
-    "predicate": "위험하다",
-    "object": "즉시 수의사 개입 필요"
+    "predicate": "이다",
+    "object": "위험"
   },
   {
     "idx": 39,
     "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "산후 기립불능",
-    "predicate": "예방 방법",
+    "predicate": "필요하다",
     "object": "즉시 수의사 개입"
-  },
-  {
-    "idx": 39,
-    "question": "송아지가 태어난 후 어미가 누워만 있으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "수의사",
-    "predicate": "개입 필요",
-    "object": "산후 기립불능 발생 시"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "외음부 부종",
-    "predicate": "는",
-    "object": "분만 임박 징후"
+    "predicate": "is a sign of",
+    "object": "분만 임박"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "점액 분비",
-    "predicate": "는",
-    "object": "분만 임박 징후"
+    "predicate": "is a sign of",
+    "object": "분만 임박"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "밝은 조명",
-    "predicate": "는",
+    "predicate": "is a factor that",
     "object": "소가 회피할 만한 요인"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "큰 소음",
-    "predicate": "는",
+    "predicate": "is a factor that",
     "object": "소가 회피할 만한 요인"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
     "subject": "어두운 구역의 바닥 상태",
-    "predicate": "를 확인하여",
-    "object": "미끄럼·오염이 없는지"
+    "predicate": "should be checked for",
+    "object": "미끄럼"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "미끄럼·오염",
-    "predicate": "는",
-    "object": "정비해야 할 요인"
+    "subject": "어두운 구역의 바닥 상태",
+    "predicate": "should be checked for",
+    "object": "오염"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "한 구역을 반복적으로 찾는 행동",
-    "predicate": "는",
-    "object": "진통이 시작된 것의 징후"
+    "subject": "반복적으로 한 구역을 찾는 것",
+    "predicate": "may indicate",
+    "object": "진통 시작"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "조용하고 안정적인 공간",
-    "predicate": "를 제공하여",
-    "object": "스트레스를 줄임"
+    "subject": "자세 변화",
+    "predicate": "should be observed when",
+    "object": "반복적으로 한 구역을 찾는 것"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "분만 진행",
-    "predicate": "가 멈추면",
-    "object": "수의사 개입이 필요"
+    "subject": "조용하고 안정적인 공간 제공",
+    "predicate": "reduces",
+    "object": "스트레스"
   },
   {
     "idx": 40,
     "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
-    "subject": "과도한 불안",
-    "predicate": "는",
-    "object": "수의사 개입이 필요한 징후"
+    "subject": "분만 진행 멈춤",
+    "predicate": "requires",
+    "object": "수의사 개입"
+  },
+  {
+    "idx": 40,
+    "question": "분만 임박 소가 어두운 곳만 찾으려 할 때 농장에서 우선 확인해야 할 사항은 무엇인가요?",
+    "subject": "소가 과도하게 불안해함",
+    "predicate": "requires",
+    "object": "수의사 개입"
   }
 ]
