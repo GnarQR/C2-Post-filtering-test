@@ -13,7 +13,7 @@ LLM 호출 없이 저장된 triple + NLI만으로 평가합니다.
 사전 준비:
     python build_kg.py       → domain_kg.json
     python build_llm_kg.py   → llm_kg_{target}.json
-    1차년도_QnA_데이터셋_평가.xlsx 파일을 같은 폴더에 둘 것
+    1차년도 QnA 데이터셋 평가.xlsx 파일을 같은 폴더에 둘 것
 
 사용법:
     python evaluate_detection.py --target finetune
@@ -34,7 +34,7 @@ from hallucination_corrector import verify_triples
 from triple_extractor import Triple
 
 
-XLSX_PATH  = "1차년도_QnA_데이터셋_평가.xlsx"
+XLSX_PATH  = "1차년도 QnA 데이터셋 평가.xlsx"
 SHEET_NAME = "연구자 평가"
 COL_TF     = 5   # E: TF 점수 (idx 21~40 용)
 COL_REPORT = 8   # H: 보고서 제출용 점수 (idx 1~20 용)
